@@ -5,12 +5,16 @@ This is a simple project that allows one to easily build a JSON map of the tiles
 ## How to Use It
 1. Copy the Javascript from [role-mapper.js](role-mapper.js). 
 2. Open the [CampusM App Builder](https://appmanager-na.campusm.exlibrisgroup.com/app-builder#)
+![CampusM App Builder](images/app-builder.PNG)
 3. Open the dev tools in your browser. 
 4. Open the Console tab in your dev tools. 
 5. Paste the copied JS into the console.
+![CampusM App Builder with Console Open in Browser Dev Tools](images/appbuilder-with-devtools.PNG)
 6. Run it. 
 7. When it finishes executing, copy the created map to your clipboard with 
 ``` 
 copy(roles_map);
 ```
 8. Paste the copied JSON object into a JSON file in this project, or wherever you want the map to be stored. 
+9. Sample output from the script is stored in [roles_map.json](roles_map.json). 
+
