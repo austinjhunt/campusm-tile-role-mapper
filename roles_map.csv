@@ -6,16 +6,16 @@ Appointments,Authenticated:Default,desktop mobile
 AppsAnywhere,Authenticated:Default,
 Banner Document Management,Authenticated:BDMSUsers+Authenticated:myportal_role_betatester+Authenticated:Role_BannerINB,
 Banner Workflow (VPN Required),Authenticated:myportal_role_betatester+Authenticated:Role_Workflow,
-Bookstore,Authenticated:Role_Alumni+Authenticated:Role_Matriculated+Authenticated:Student Systems,desktop
+Bookstore,Authenticated:Role_Alumni+Authenticated:Role_Student+Authenticated:Student Systems,desktop
 Classroom Access Codes,Authenticated:Role_Faculty,
 CofC Jobs,Authenticated:Default+Unauthenticated:Default,
 Cognos ODS Refresh Status,Authenticated:Role_Employee,
 Cougar Card Portal,Authenticated:Default,desktop mobile
-CougarConnect,Authenticated:Role_Alumni+Authenticated:Role_Matriculated+Authenticated:Student Systems,desktop mobile
+CougarConnect,Authenticated:Role_Alumni+Authenticated:Role_Student+Authenticated:Student Systems,desktop mobile
 CougarED,Authenticated:Role_Employee,desktop mobile
-Course Review,Authenticated:Role_Faculty+Authenticated:Role_Matriculated+Authenticated:Student Systems,desktop mobile
+Course Review,Authenticated:Role_Faculty+Authenticated:Role_Student+Authenticated:Student Systems,desktop mobile
 Curriculog,Authenticated:Role_Faculty+Authenticated:Student Systems,desktop
-Degree Works,Authenticated:Role_Advisor+Authenticated:Role_Alumni+Authenticated:Role_Matriculated,
+Degree Works,Authenticated:Role_Advisor+Authenticated:Role_Alumni+Authenticated:Role_Student,
 Directory,Authenticated:Default,desktop mobile
 Employee Dashboard,Authenticated:Role_Employee,desktop mobile ssb needs-validation
 F.A.S.T.,Authenticated:Default,desktop mobile
@@ -24,15 +24,15 @@ Faculty Dashboard,Authenticated:Role_Advisor+Authenticated:Role_Faculty,ssb desk
 Finance Dashboard,Authenticated:Role_Finance,ssb desktop mobile
 Financial Aid Dashboard,Authenticated:Role_Alumni+Authenticated:Role_Applicant+Authenticated:Role_Student,ssb
 Give,Authenticated:Role_Alumni+Unauthenticated:Default,desktop mobile
-Gmail,Authenticated:Role_Matriculated,desktop mobile
-Handshake,Authenticated:Role_Matriculated,desktop mobile
+Gmail,Authenticated:Role_Student,desktop mobile
+Handshake,Authenticated:Role_Student,desktop mobile
 IT Support,Authenticated:Default,desktop mobile
 Library,Authenticated:Default,
 Linkedin Learning,Authenticated:Default,desktop mobile
-My Grades ,Authenticated:Role_Matriculated+Authenticated:Role_Student,desktop mobile ssb 
-My Health,Authenticated:Role_Matriculated+Authenticated:Student Systems,desktop mobile
+My Grades ,Authenticated:Role_Student,desktop mobile ssb 
+My Health,Authenticated:Role_Student+Authenticated:Student Systems,desktop mobile
 My Holds,Authenticated:Role_Student,desktop mobile needs-fix
-MyApps,Authenticated:Default+Authenticated:Role_Alumni+Authenticated:Student Systems,desktop mobile
+MyApps,Authenticated:Default,desktop mobile
 MyHousing/ Dining,Authenticated:myportal_role_betatester+Authenticated:Role_Student,desktop mobile
 MyPortal Feedback,Authenticated:Default+Unauthenticated:Default,desktop mobile
 MyPortal Support,Authenticated:Default,
@@ -45,18 +45,18 @@ Personal Information,Authenticated:Default,ssb desktop mobile
 Places to Stay,Unauthenticated:Default,desktop mobile
 Public Safety,Authenticated:Default+Unauthenticated:Default,desktop mobile
 Qualtrics,Authenticated:Default,
-Registration Tools,Authenticated:Role_Matriculated+Authenticated:Role_Student,ssb desktop mobile
+Registration Tools,Authenticated:Role_Student,ssb desktop mobile
 Scholarships,Authenticated:Role_Applicant+Authenticated:Role_Matriculated+Authenticated:Student Systems+Unauthenticated:Default,desktop mobile
 SecureShare,Authenticated:Default,
-Student Profile,Authenticated:Role_Alumni+Authenticated:Role_Matriculated+Authenticated:Role_Student,ssb desktop mobile 
-Student Support Services,Authenticated:Role_Matriculated+Authenticated:Role_Student+Authenticated:Student Systems,desktop mobile
+Student Profile,Authenticated:Role_Alumni+Authenticated:Role_Student,ssb desktop mobile 
+Student Support Services,Authenticated:Role_Student+Authenticated:Student Systems,desktop mobile
 Student Wellness,Authenticated:Default,
-The College Today,Authenticated:Default+Authenticated:Student Systems+Unauthenticated:Default,desktop mobile
+The College Today,Authenticated:Default+Unauthenticated:Default,desktop mobile
 The Hub,Authenticated:Default,
 Time Entry,Authenticated:myportal_role_betatester,
-Transcripts,Authenticated:Role_Alumni+Authenticated:Role_Matriculated+Authenticated:Student Systems,desktop mobile
+Transcripts,Authenticated:Role_Alumni+Authenticated:Role_Student+Authenticated:Student Systems,desktop mobile
 Vax Status,Authenticated:Default,desktop mobile
 Workstations,Authenticated:Default,aek desktop mobile
-Zoom,Authenticated:Default+Authenticated:Role_Alumni,desktop
-eBill,Authenticated:Default+Authenticated:Role_Applicant,non-parents
+Zoom,Authenticated:Default,desktop
+eBill,Authenticated:Default,non-parents
 ePrint (VPN Required),Authenticated:Default,

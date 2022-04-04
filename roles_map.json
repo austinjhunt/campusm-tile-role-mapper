@@ -29,7 +29,7 @@
   },
   "Bookstore": {
     "Tag": "desktop",
-    "Authenticated": ["Role_Alumni", "Role_Matriculated", "Student Systems"]
+    "Authenticated": ["Role_Alumni", "Role_Student", "Student Systems"]
   },
   "Classroom Access Codes": {
     "Tag": "",
@@ -50,7 +50,7 @@
   },
   "CougarConnect": {
     "Tag": "desktop mobile",
-    "Authenticated": ["Role_Alumni", "Role_Matriculated", "Student Systems"]
+    "Authenticated": ["Role_Alumni", "Role_Student", "Student Systems"]
   },
   "CougarED": {
     "Tag": "desktop mobile",
@@ -58,7 +58,7 @@
   },
   "Course Review": {
     "Tag": "desktop mobile",
-    "Authenticated": ["Role_Faculty", "Role_Matriculated", "Student Systems"]
+    "Authenticated": ["Role_Faculty", "Role_Student", "Student Systems"]
   },
   "Curriculog": {
     "Tag": "desktop",
@@ -66,7 +66,7 @@
   },
   "Degree Works": {
     "Tag": "",
-    "Authenticated": ["Role_Advisor", "Role_Alumni", "Role_Matriculated"]
+    "Authenticated": ["Role_Advisor", "Role_Alumni", "Role_Student"]
   },
   "Directory": {
     "Tag": "desktop mobile",
@@ -103,11 +103,11 @@
   },
   "Gmail": {
     "Tag": "desktop mobile",
-    "Authenticated": ["Role_Matriculated"]
+    "Authenticated": ["Role_Student"]
   },
   "Handshake": {
     "Tag": "desktop mobile",
-    "Authenticated": ["Role_Matriculated"]
+    "Authenticated": ["Role_Student"]
   },
   "IT Support": {
     "Tag": "desktop mobile",
@@ -123,11 +123,11 @@
   },
   "My Grades ": {
     "Tag": "desktop mobile ssb ",
-    "Authenticated": ["Role_Matriculated", "Role_Student"]
+    "Authenticated": ["Role_Student"]
   },
   "My Health": {
     "Tag": "desktop mobile",
-    "Authenticated": ["Role_Matriculated", "Student Systems"]
+    "Authenticated": ["Role_Student", "Student Systems"]
   },
   "My Holds": {
     "Tag": "desktop mobile needs-fix",
@@ -135,7 +135,7 @@
   },
   "MyApps": {
     "Tag": "desktop mobile",
-    "Authenticated": ["Default", "Role_Alumni", "Student Systems"]
+    "Authenticated": ["Default"]
   },
   "MyHousing/ Dining": {
     "Tag": "desktop mobile",
@@ -189,7 +189,7 @@
   },
   "Registration Tools": {
     "Tag": "ssb desktop mobile",
-    "Authenticated": ["Role_Matriculated", "Role_Student"]
+    "Authenticated": ["Role_Student"]
   },
   "Scholarships": {
     "Tag": "desktop mobile",
@@ -202,11 +202,11 @@
   },
   "Student Profile": {
     "Tag": "ssb desktop mobile ",
-    "Authenticated": ["Role_Alumni", "Role_Matriculated", "Role_Student"]
+    "Authenticated": ["Role_Alumni", "Role_Student"]
   },
   "Student Support Services": {
     "Tag": "desktop mobile",
-    "Authenticated": ["Role_Matriculated", "Role_Student", "Student Systems"]
+    "Authenticated": ["Role_Student", "Student Systems"]
   },
   "Student Wellness": {
     "Tag": "",
@@ -214,7 +214,7 @@
   },
   "The College Today": {
     "Tag": "desktop mobile",
-    "Authenticated": ["Default", "Student Systems"],
+    "Authenticated": ["Default"],
     "Unauthenticated": ["Default"]
   },
   "The Hub": {
@@ -227,7 +227,7 @@
   },
   "Transcripts": {
     "Tag": "desktop mobile",
-    "Authenticated": ["Role_Alumni", "Role_Matriculated", "Student Systems"]
+    "Authenticated": ["Role_Alumni", "Role_Student", "Student Systems"]
   },
   "Vax Status": {
     "Tag": "desktop mobile",
@@ -239,11 +239,11 @@
   },
   "Zoom": {
     "Tag": "desktop",
-    "Authenticated": ["Default", "Role_Alumni"]
+    "Authenticated": ["Default"]
   },
   "eBill": {
     "Tag": "non-parents",
-    "Authenticated": ["Default", "Role_Applicant"]
+    "Authenticated": ["Default"]
   },
   "ePrint (VPN Required)": {
     "Tag": "",
