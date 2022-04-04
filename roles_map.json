@@ -1,320 +1,252 @@
 {
-    "Admin Pages (VPN) (disabled)": {
-        "Tag": "desktop",
-        "Authenticated": [
-            "Role_BannerINB"
-        ]
-    },
-    "Alumni": {
-        "Tag": "desktop mobile",
-        "Authenticated": [
-            "Role_Alumni"
-        ]
-    },
-    "Appointments": {
-        "Tag": "desktop mobile",
-        "Authenticated": [
-            "Role_Matriculated",
-            "Student Systems"
-        ]
-    },
-    "Bookstore": {
-        "Tag": "desktop",
-        "Authenticated": [
-            "Role_Alumni",
-            "Role_Matriculated",
-            "Student Systems"
-        ]
-    },
-    "CofC Jobs": {
-        "Tag": "desktop mobile",
-        "Authenticated": [
-            "Role_Employee"
-        ]
-    },
-    "Cougar Card Portal": {
-        "Tag": "desktop mobile",
-        "Authenticated": [
-            "Role_Employee",
-            "Role_Matriculated",
-            "Student Systems"
-        ]
-    },
-    "CougarConnect": {
-        "Tag": "desktop mobile",
-        "Authenticated": [
-            "Role_Alumni",
-            "Role_Matriculated",
-            "Student Systems"
-        ]
-    },
-    "CougarED": {
-        "Tag": "desktop mobile",
-        "Authenticated": [
-            "Role_Employee"
-        ]
-    },
-    "Course Review": {
-        "Tag": "desktop mobile",
-        "Authenticated": [
-            "Faculty: All",
-            "Role_Matriculated",
-            "Student Systems"
-        ]
-    },
-    "Curriculog": {
-        "Tag": "desktop",
-        "Authenticated": [
-            "Faculty: All",
-            "Student Systems"
-        ]
-    },
-    "Directory": {
-        "Tag": "desktop mobile",
-        "Authenticated": [
-            "Default"
-        ]
-    },
-    "Employee Dashboard (disabled)": {
-        "Tag": "desktop mobile ssb",
-        "Authenticated": [
-            "Finance Team",
-            "Financial Aid Team",
-            "HR Team",
-            "Payroll Team",
-            "Student Systems"
-        ]
-    },
-    "F.A.S.T.": {
-        "Tag": "desktop mobile",
-        "Authenticated": [
-            "Role_Matriculated",
-            "Student Systems"
-        ]
-    },
-    "Faculty Dashboard": {
-        "Tag": "ssb desktop mobile",
-        "Authenticated": [
-            "ERP Modernization Steering Team",
-            "Financial Aid Team",
-            "PMO_SG",
-            "Student Systems"
-        ]
-    },
-    "Finance Dashboard": {
-        "Tag": "ssb desktop mobile",
-        "Authenticated": [
-            "ERP Modernization Steering Team",
-            "Finance Team",
-            "Financial Aid Team",
-            "Payroll Team",
-            "Student Systems"
-        ]
-    },
-    "Give": {
-        "Tag": "desktop mobile",
-        "Authenticated": [
-            "Role_Alumni"
-        ],
-        "Unauthenticated": [
-            "Default"
-        ]
-    },
-    "Gmail": {
-        "Tag": "desktop mobile",
-        "Authenticated": [
-            "Role_Matriculated"
-        ]
-    },
-    "Handshake": {
-        "Tag": "desktop mobile",
-        "Authenticated": [
-            "Role_Matriculated"
-        ]
-    },
-    "IT Support": {
-        "Tag": "desktop mobile",
-        "Authenticated": [
-            "Default",
-            "Role_Alumni"
-        ]
-    },
-    "Linkedin Learning": {
-        "Tag": "desktop mobile",
-        "Authenticated": [
-            "Default"
-        ]
-    },
-    "My Grades  (disabled)": {
-        "Tag": "desktop mobile ssb",
-        "Authenticated": [
-            "Financial Aid Team",
-            "Student Systems"
-        ]
-    },
-    "My Health": {
-        "Tag": "desktop mobile",
-        "Authenticated": [
-            "Role_Matriculated",
-            "Student Systems"
-        ]
-    },
-    "My Holds": {
-        "Tag": "desktop mobile",
-        "Authenticated": [
-            "Financial Aid Team",
-            "Role_Matriculated",
-            "Student Systems"
-        ]
-    },
-    "My Housing & Dining": {
-        "Tag": "desktop mobile",
-        "Authenticated": [
-            "Role_Matriculated"
-        ]
-    },
-    "MyApps": {
-        "Tag": "desktop mobile",
-        "Authenticated": [
-            "Default",
-            "Role_Alumni",
-            "Student Systems"
-        ]
-    },
-    "MyPortal Feedback": {
-        "Tag": "desktop mobile",
-        "Authenticated": [
-            "Default",
-            "Student Systems"
-        ]
-    },
-    "MyQR CWID": {
-        "Tag": "desktop mobile",
-        "Authenticated": [
-            "Default",
-            "Student Systems"
-        ]
-    },
-    "OAKS": {
-        "Tag": "faculty desktop mobile",
-        "Authenticated": [
-            "Faculty: All",
-            "Student Systems"
-        ]
-    },
-    "Parking": {
-        "Tag": "desktop mobile",
-        "Authenticated": [
-            "Default"
-        ]
-    },
-    "Personal Information": {
-        "Tag": "ssb desktop mobile",
-        "Authenticated": [
-            "ERP Modernization Steering Team",
-            "Finance Team",
-            "Financial Aid Team",
-            "HR Team",
-            "Payroll Team",
-            "PMO_SG",
-            "Student Systems"
-        ]
-    },
-    "Places to Stay": {
-        "Tag": "desktop mobile",
-        "Unauthenticated": [
-            "Default"
-        ]
-    },
-    "Public Safety": {
-        "Tag": "desktop mobile",
-        "Authenticated": [
-            "Default"
-        ],
-        "Unauthenticated": [
-            "Default"
-        ]
-    },
-    "Registration Tools (disabled)": {
-        "Tag": "ssb desktop mobile",
-        "Authenticated": [
-            "Financial Aid Team",
-            "Student Systems"
-        ]
-    },
-    "Scholarships": {
-        "Tag": "desktop mobile",
-        "Authenticated": [
-            "Role_Matriculated",
-            "Student Systems"
-        ],
-        "Unauthenticated": [
-            "Default"
-        ]
-    },
-    "Student Profile": {
-        "Tag": "ssb desktop mobile",
-        "Authenticated": [
-            "ERP Modernization Steering Team",
-            "Financial Aid Team",
-            "PMO_SG",
-            "Student Systems"
-        ]
-    },
-    "Student Support": {
-        "Tag": "desktop mobile",
-        "Authenticated": [
-            "Role_Matriculated",
-            "Role_Student",
-            "Student Systems"
-        ]
-    },
-    "The College Today": {
-        "Tag": "desktop mobile",
-        "Authenticated": [
-            "Default",
-            "Student Systems"
-        ],
-        "Unauthenticated": [
-            "Default"
-        ]
-    },
-    "Transcripts": {
-        "Tag": "desktop mobile",
-        "Authenticated": [
-            "Role_Matriculated",
-            "Student Systems"
-        ]
-    },
-    "Vax Status": {
-        "Tag": "desktop mobile",
-        "Authenticated": [
-            "Default"
-        ]
-    },
-    "Work Orders": {
-        "Tag": "desktop mobile",
-        "Authenticated": [
-            "Default"
-        ]
-    },
-    "Workstations": {
-        "Tag": "aek desktop mobile",
-        "Authenticated": [
-            "Role_Matriculated"
-        ]
-    },
-    "Zoom": {
-        "Tag": "desktop",
-        "Authenticated": [
-            "Default",
-            "Role_Alumni"
-        ]
-    },
-    "eBill": {
-        "Tag": "parents desktop mobile",
-        "Unauthenticated": [
-            "Default"
-        ]
-    }
+  "3rd Millennium": {
+    "Tag": "",
+    "Authenticated": ["Role_Student"]
+  },
+  "Admin Pages (VPN) (disabled)": {
+    "Tag": "desktop waiting-for-saml",
+    "Authenticated": ["Role_BannerINB"]
+  },
+  "Alumni": {
+    "Tag": "desktop mobile",
+    "Authenticated": ["Role_Alumni"]
+  },
+  "Appointments": {
+    "Tag": "desktop mobile",
+    "Authenticated": ["Default"]
+  },
+  "AppsAnywhere": {
+    "Tag": "",
+    "Authenticated": ["Default"]
+  },
+  "Banner Document Management": {
+    "Tag": "",
+    "Authenticated": ["BDMSUsers", "myportal_role_betatester", "Role_BannerINB"]
+  },
+  "Banner Workflow (VPN Required)": {
+    "Tag": "",
+    "Authenticated": ["myportal_role_betatester", "Role_Workflow"]
+  },
+  "Bookstore": {
+    "Tag": "desktop",
+    "Authenticated": ["Role_Alumni", "Role_Matriculated", "Student Systems"]
+  },
+  "Classroom Access Codes": {
+    "Tag": "",
+    "Authenticated": ["Role_Faculty"]
+  },
+  "CofC Jobs": {
+    "Tag": "",
+    "Authenticated": ["Default"],
+    "Unauthenticated": ["Default"]
+  },
+  "Cognos ODS Refresh Status": {
+    "Tag": "",
+    "Authenticated": ["Role_Employee"]
+  },
+  "Cougar Card Portal": {
+    "Tag": "desktop mobile",
+    "Authenticated": ["Default"]
+  },
+  "CougarConnect": {
+    "Tag": "desktop mobile",
+    "Authenticated": ["Role_Alumni", "Role_Matriculated", "Student Systems"]
+  },
+  "CougarED": {
+    "Tag": "desktop mobile",
+    "Authenticated": ["Role_Employee"]
+  },
+  "Course Review": {
+    "Tag": "desktop mobile",
+    "Authenticated": ["Role_Faculty", "Role_Matriculated", "Student Systems"]
+  },
+  "Curriculog": {
+    "Tag": "desktop",
+    "Authenticated": ["Role_Faculty", "Student Systems"]
+  },
+  "Degree Works": {
+    "Tag": "",
+    "Authenticated": ["Role_Advisor", "Role_Alumni", "Role_Matriculated"]
+  },
+  "Directory": {
+    "Tag": "desktop mobile",
+    "Authenticated": ["Default"]
+  },
+  "Employee Dashboard": {
+    "Tag": "desktop mobile ssb needs-validation",
+    "Authenticated": ["Role_Employee"]
+  },
+  "F.A.S.T.": {
+    "Tag": "desktop mobile",
+    "Authenticated": ["Default"]
+  },
+  "Facilities Work Orders": {
+    "Tag": "desktop mobile",
+    "Authenticated": ["Default"]
+  },
+  "Faculty Dashboard": {
+    "Tag": "ssb desktop mobile",
+    "Authenticated": ["Role_Advisor", "Role_Faculty"]
+  },
+  "Finance Dashboard": {
+    "Tag": "ssb desktop mobile",
+    "Authenticated": ["Role_Finance"]
+  },
+  "Financial Aid Dashboard": {
+    "Tag": "ssb",
+    "Authenticated": ["Role_Alumni", "Role_Applicant", "Role_Student"]
+  },
+  "Give": {
+    "Tag": "desktop mobile",
+    "Authenticated": ["Role_Alumni"],
+    "Unauthenticated": ["Default"]
+  },
+  "Gmail": {
+    "Tag": "desktop mobile",
+    "Authenticated": ["Role_Matriculated"]
+  },
+  "Handshake": {
+    "Tag": "desktop mobile",
+    "Authenticated": ["Role_Matriculated"]
+  },
+  "IT Support": {
+    "Tag": "desktop mobile",
+    "Authenticated": ["Default"]
+  },
+  "Library": {
+    "Tag": "",
+    "Authenticated": ["Default"]
+  },
+  "Linkedin Learning": {
+    "Tag": "desktop mobile",
+    "Authenticated": ["Default"]
+  },
+  "My Grades ": {
+    "Tag": "desktop mobile ssb ",
+    "Authenticated": ["Role_Matriculated", "Role_Student"]
+  },
+  "My Health": {
+    "Tag": "desktop mobile",
+    "Authenticated": ["Role_Matriculated", "Student Systems"]
+  },
+  "My Holds": {
+    "Tag": "desktop mobile needs-fix",
+    "Authenticated": ["Role_Student"]
+  },
+  "MyApps": {
+    "Tag": "desktop mobile",
+    "Authenticated": ["Default", "Role_Alumni", "Student Systems"]
+  },
+  "MyHousing/ Dining": {
+    "Tag": "desktop mobile",
+    "Authenticated": ["myportal_role_betatester", "Role_Student"]
+  },
+  "MyPortal Feedback": {
+    "Tag": "desktop mobile",
+    "Authenticated": ["Default"],
+    "Unauthenticated": ["Default"]
+  },
+  "MyPortal Support": {
+    "Tag": "",
+    "Authenticated": ["Default"]
+  },
+  "MyQR CWID": {
+    "Tag": "desktop mobile",
+    "Authenticated": ["Default"]
+  },
+  "OAKS": {
+    "Tag": "faculty staff desktop mobile",
+    "Authenticated": ["All Staff", "IT HelpDesk", "Role_Faculty"]
+  },
+  "Outlook": {
+    "Tag": "",
+    "Authenticated": ["All Staff", "Role_Faculty"]
+  },
+  "Parking": {
+    "Tag": "desktop mobile",
+    "Authenticated": ["Default"]
+  },
+  "PeopleAdmin": {
+    "Tag": "desktop mobile",
+    "Authenticated": ["Default"]
+  },
+  "Personal Information": {
+    "Tag": "ssb desktop mobile",
+    "Authenticated": ["Default"]
+  },
+  "Places to Stay": {
+    "Tag": "desktop mobile",
+    "Unauthenticated": ["Default"]
+  },
+  "Public Safety": {
+    "Tag": "desktop mobile",
+    "Authenticated": ["Default"],
+    "Unauthenticated": ["Default"]
+  },
+  "Qualtrics": {
+    "Tag": "",
+    "Authenticated": ["Default"]
+  },
+  "Registration Tools": {
+    "Tag": "ssb desktop mobile",
+    "Authenticated": ["Role_Matriculated", "Role_Student"]
+  },
+  "Scholarships": {
+    "Tag": "desktop mobile",
+    "Authenticated": ["Role_Applicant", "Role_Matriculated", "Student Systems"],
+    "Unauthenticated": ["Default"]
+  },
+  "SecureShare": {
+    "Tag": "",
+    "Authenticated": ["Default"]
+  },
+  "Student Profile": {
+    "Tag": "ssb desktop mobile ",
+    "Authenticated": ["Role_Alumni", "Role_Matriculated", "Role_Student"]
+  },
+  "Student Support Services": {
+    "Tag": "desktop mobile",
+    "Authenticated": ["Role_Matriculated", "Role_Student", "Student Systems"]
+  },
+  "Student Wellness": {
+    "Tag": "",
+    "Authenticated": ["Default"]
+  },
+  "The College Today": {
+    "Tag": "desktop mobile",
+    "Authenticated": ["Default", "Student Systems"],
+    "Unauthenticated": ["Default"]
+  },
+  "The Hub": {
+    "Tag": "",
+    "Authenticated": ["Default"]
+  },
+  "Time Entry": {
+    "Tag": "",
+    "Authenticated": ["myportal_role_betatester"]
+  },
+  "Transcripts": {
+    "Tag": "desktop mobile",
+    "Authenticated": ["Role_Alumni", "Role_Matriculated", "Student Systems"]
+  },
+  "Vax Status": {
+    "Tag": "desktop mobile",
+    "Authenticated": ["Default"]
+  },
+  "Workstations": {
+    "Tag": "aek desktop mobile",
+    "Authenticated": ["Default"]
+  },
+  "Zoom": {
+    "Tag": "desktop",
+    "Authenticated": ["Default", "Role_Alumni"]
+  },
+  "eBill": {
+    "Tag": "non-parents",
+    "Authenticated": ["Default", "Role_Applicant"]
+  },
+  "ePrint (VPN Required)": {
+    "Tag": "",
+    "Authenticated": ["Default"]
+  }
 }
