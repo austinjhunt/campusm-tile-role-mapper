@@ -1,0 +1,2305 @@
+{
+  "3rd Millennium": {
+    "tag": "",
+    "tileConfig": {
+      "action": "campusm://openURL?url=https%3A%2F%2F3rdmilclassrooms.com%2FSAML%2FService%2FSSO%3Fid%3D88F63691-454A-45C8-94BE-8B640FE6A89E",
+      "tileWidth": 2,
+      "img": "https://portal-na.campusm.exlibrisgroup.com/assets/CollegeofCharleston/CollegeofCharlestonSB/FontAwesome/3rdmil-icon.png"
+    },
+    "menuOptionConfig": {
+      "img": "",
+      "web2_disabled": false,
+      "metadata_tag": "",
+      "disabled": false,
+      "menuRefCode": "TILE",
+      "desc": "3rd Millennium",
+      "iphone_disabled": false,
+      "roles": [1000005621],
+      "service": "",
+      "android_disabled": false,
+      "disable_person_hide_tile": false,
+      "person_tile_hidden_by_default": false,
+      "order": "181"
+    },
+    "profiles": {
+      "Student": {
+        "roles": ["Role_Student"]
+      }
+    }
+  },
+  "Alumni": {
+    "tag": "social",
+    "tileConfig": {
+      "action": "campusm://openURL?url=https%3A%2F%2Falumni.cofc.edu%2FNetCommunity%2FSSLPage.aspx%3Fpid%3D682",
+      "info": "The alumni community website for the College",
+      "img": "https://portal-na.campusm.exlibrisgroup.com/assets/CollegeofCharleston/CollegeofCharlestonSB/FontAwesome/graduation-cap.png"
+    },
+    "menuOptionConfig": {
+      "img": "",
+      "web2_disabled": false,
+      "metadata_tag": "social",
+      "disabled": false,
+      "menuRefCode": "TILE",
+      "desc": "Alumni",
+      "iphone_disabled": false,
+      "roles": [1000004198],
+      "service": "",
+      "android_disabled": false,
+      "disable_person_hide_tile": false,
+      "person_tile_hidden_by_default": false,
+      "order": "131"
+    },
+    "profiles": {
+      "Alumni": {
+        "roles": ["Role_Alumni"]
+      }
+    }
+  },
+  "Appointments": {
+    "tag": "",
+    "tileConfig": {
+      "info": "A menu of appointment-related resources ",
+      "img": "https://portal-na.campusm.exlibrisgroup.com/assets/CollegeofCharleston/CollegeofCharlestonSB/FontAwesome/calendar-check.png"
+    },
+    "menuOptionConfig": {
+      "img": "",
+      "web2_disabled": false,
+      "metadata_tag": "",
+      "disabled": false,
+      "menuRefCode": "PG",
+      "desc": "Appointments",
+      "iphone_disabled": false,
+      "roles": [1000004198, 1000005605, 1000003643, 1000005610, 1000005621],
+      "service": "",
+      "android_disabled": false,
+      "disable_person_hide_tile": false,
+      "person_tile_hidden_by_default": false,
+      "order": "154"
+    },
+    "profiles": {
+      "Faculty": {
+        "roles": ["Role_Faculty"]
+      },
+      "Staff": {
+        "roles": ["Role_Employee"]
+      },
+      "Student": {
+        "roles": ["Role_Student"]
+      },
+      "Applicant": {
+        "roles": ["Role_Applicant"]
+      },
+      "Alumni": {
+        "roles": ["Role_Alumni"]
+      }
+    }
+  },
+  "AppsAnywhere": {
+    "tag": "",
+    "tileConfig": {
+      "action": "campusm://openURL?url=https%3A%2F%2Fappsanywhere.cofc.edu%2Flogin",
+      "img": "https://portal-na.campusm.exlibrisgroup.com/assets/CollegeofCharleston/CollegeofCharlestonSB/FontAwesome/apps-anywhere.png"
+    },
+    "menuOptionConfig": {
+      "img": "",
+      "web2_disabled": false,
+      "metadata_tag": "",
+      "disabled": false,
+      "menuRefCode": "TILE",
+      "desc": "AppsAnywhere",
+      "iphone_disabled": true,
+      "roles": [1000004198, 1000005605, 1000003643, 1000005610, 1000005621],
+      "service": "",
+      "android_disabled": true,
+      "disable_person_hide_tile": false,
+      "person_tile_hidden_by_default": false,
+      "order": "171"
+    },
+    "profiles": {}
+  },
+  "Banner Admin Pages (VPN Required)": {
+    "tag": "",
+    "tileConfig": {
+      "action": "campusm://openURL?url=http%3A%2F%2Fbanner.test.cofc.edu%2FapplicationNavigator",
+      "tileWidth": 2,
+      "info": "Banner INB9.  The Administrative or Back Office side of Banner.",
+      "img": "https://portal-na.campusm.exlibrisgroup.com/assets/CollegeofCharleston/CollegeofCharlestonSB/FontAwesome/user-shield.png"
+    },
+    "menuOptionConfig": {
+      "img": "",
+      "web2_disabled": false,
+      "metadata_tag": "",
+      "disabled": false,
+      "menuRefCode": "TILE",
+      "desc": "Banner Admin Pages (VPN Required)",
+      "iphone_disabled": false,
+      "roles": [1000005260],
+      "service": "",
+      "android_disabled": false,
+      "disable_person_hide_tile": false,
+      "person_tile_hidden_by_default": false,
+      "order": "128"
+    },
+    "profiles": {
+      "Staff": {
+        "roles": ["Role_BannerINB"]
+      }
+    }
+  },
+  "Banner Document Management": {
+    "tag": "",
+    "tileConfig": {},
+    "menuOptionConfig": {
+      "img": "",
+      "web2_disabled": false,
+      "metadata_tag": "",
+      "disabled": false,
+      "menuRefCode": "TILE",
+      "desc": "Banner Document Management",
+      "iphone_disabled": false,
+      "roles": [1000005603, 1000005260],
+      "service": "",
+      "android_disabled": false,
+      "disable_person_hide_tile": false,
+      "person_tile_hidden_by_default": false,
+      "order": "190"
+    },
+    "profiles": {
+      "Staff": {
+        "roles": ["BDMSUsers", "Role_BannerINB"]
+      }
+    }
+  },
+  "Banner Workflow (VPN Required)": {
+    "tag": "",
+    "tileConfig": {
+      "action": "campusm://openURL?url=https%3A%2F%2Fworkflow.test.cofc.edu%2Fwftest%2F",
+      "img": "https://portal-na.campusm.exlibrisgroup.com/assets/CollegeofCharleston/CollegeofCharlestonSB/FontAwesome/workflow-icon.png"
+    },
+    "menuOptionConfig": {
+      "img": "",
+      "web2_disabled": false,
+      "metadata_tag": "",
+      "disabled": false,
+      "menuRefCode": "TILE",
+      "desc": "Banner Workflow (VPN Required)",
+      "iphone_disabled": false,
+      "roles": [1000005604],
+      "service": "",
+      "android_disabled": false,
+      "disable_person_hide_tile": false,
+      "person_tile_hidden_by_default": false,
+      "order": "180"
+    },
+    "profiles": {
+      "Staff": {
+        "roles": ["Role_Workflow"]
+      }
+    }
+  },
+  "Bookstore": {
+    "tag": "desktop",
+    "tileConfig": {
+      "action": "campusm://openURL?url=https%3A%2F%2Fcofc.bncollege.com%2Fshop%2Fcharleston%2Fhome",
+      "info": "The Barnes & Noble College Bookstore",
+      "img": "https://portal-na.campusm.exlibrisgroup.com/assets/CollegeofCharleston/CollegeofCharlestonSB/FontAwesome/book.png"
+    },
+    "menuOptionConfig": {
+      "img": "",
+      "web2_disabled": false,
+      "metadata_tag": "desktop",
+      "disabled": false,
+      "menuRefCode": "TILE",
+      "desc": "Bookstore",
+      "iphone_disabled": false,
+      "roles": [1000005621],
+      "service": "",
+      "android_disabled": false,
+      "disable_person_hide_tile": false,
+      "person_tile_hidden_by_default": false,
+      "order": "112"
+    },
+    "profiles": {
+      "Student": {
+        "roles": ["Role_Student"]
+      }
+    }
+  },
+  "Campus Events": {
+    "tag": "",
+    "tileConfig": {
+      "action": "campusm://productscreen/events2/events2/8142"
+    },
+    "menuOptionConfig": {
+      "img": "",
+      "web2_disabled": false,
+      "metadata_tag": "",
+      "disabled": false,
+      "menuRefCode": "SERVICES",
+      "desc": "Campus Events",
+      "iphone_disabled": false,
+      "roles": [
+        1000004198, 1000005605, 1000003643, 1000005610, 1000005621, 1000003220
+      ],
+      "service": 8142,
+      "android_disabled": false,
+      "disable_person_hide_tile": false,
+      "person_tile_hidden_by_default": false,
+      "order": "191"
+    },
+    "profiles": {
+      "Unauthenticated": {
+        "roles": ["Default"]
+      },
+      "Faculty": {
+        "roles": ["Role_Faculty"]
+      },
+      "Staff": {
+        "roles": ["Role_Employee"]
+      },
+      "Student": {
+        "roles": ["Role_Student"]
+      },
+      "Applicant": {
+        "roles": ["Role_Applicant"]
+      },
+      "Alumni": {
+        "roles": ["Role_Alumni"]
+      }
+    }
+  },
+  "Classroom Access Codes": {
+    "tag": "",
+    "tileConfig": {
+      "action": "campusm://openURL?url=https%3A%2F%2Fapps.powerapps.com%2Fplay%2F1142f871-ed51-4457-a618-44c868eaedf1%3FtenantId%3De285d438-dbba-4a4c-941c-593ba422deac%26source%3Dportal%26screenColor%3Drgba(165%252C%252034%252C%252055%252C%25201)",
+      "tileWidth": 2,
+      "img": "https://portal-na.campusm.exlibrisgroup.com/assets/CollegeofCharleston/CollegeofCharlestonSB/FontAwesome/classroom-access-codes.png"
+    },
+    "menuOptionConfig": {
+      "img": "",
+      "web2_disabled": false,
+      "metadata_tag": "",
+      "disabled": false,
+      "menuRefCode": "TILE",
+      "desc": "Classroom Access Codes",
+      "iphone_disabled": false,
+      "roles": [1000003643],
+      "service": "",
+      "android_disabled": false,
+      "disable_person_hide_tile": false,
+      "person_tile_hidden_by_default": false,
+      "order": "173"
+    },
+    "profiles": {
+      "Faculty": {
+        "roles": ["Role_Faculty"]
+      }
+    }
+  },
+  "CofC Jobs": {
+    "tag": "",
+    "tileConfig": {},
+    "menuOptionConfig": {
+      "img": "",
+      "web2_disabled": false,
+      "metadata_tag": "",
+      "disabled": false,
+      "menuRefCode": "TILE",
+      "desc": "CofC Jobs",
+      "iphone_disabled": false,
+      "roles": [
+        1000004198, 1000005605, 1000003643, 1000005610, 1000005621, 1000003220
+      ],
+      "service": "",
+      "android_disabled": false,
+      "disable_person_hide_tile": false,
+      "person_tile_hidden_by_default": false,
+      "order": "192"
+    },
+    "profiles": {
+      "Unauthenticated": {
+        "roles": ["Default"]
+      },
+      "Faculty": {
+        "roles": ["Role_Faculty"]
+      },
+      "Staff": {
+        "roles": ["Role_Employee"]
+      },
+      "Student": {
+        "roles": ["Role_Student"]
+      },
+      "Applicant": {
+        "roles": ["Role_Applicant"]
+      },
+      "Alumni": {
+        "roles": ["Role_Alumni"]
+      }
+    }
+  },
+  "Cognos ODS Refresh Status": {
+    "tag": "sg_*_cognos",
+    "tileConfig": {
+      "info": "View the status of the Cognos ODS refresh",
+      "tileWidth": 2,
+      "modal": {
+        "fullscreen": false
+      }
+    },
+    "menuOptionConfig": {
+      "img": "https://portal-na.campusm.exlibrisgroup.com/assets/CollegeofCharleston/CollegeofCharlestonSB/FontAwesome/chart-area.png",
+      "web2_disabled": false,
+      "metadata_tag": "sg_*_cognos",
+      "disabled": false,
+      "menuRefCode": "AEK1000015535",
+      "desc": "Cognos ODS Refresh Status",
+      "iphone_disabled": false,
+      "roles": [],
+      "service": "",
+      "android_disabled": false,
+      "disable_person_hide_tile": false,
+      "person_tile_hidden_by_default": false
+    },
+    "profiles": {}
+  },
+  "Cougar Card Portal": {
+    "tag": "",
+    "tileConfig": {
+      "action": "campusm://openURL?url=https%3A%2F%2Feacct-cofc-sp.transactcampus.com%2FCougarCard%2FAccountSummary.aspx",
+      "tileWidth": 2,
+      "info": "The Cougar Card eAccounts portal allows you to view account and meal plan activity and deactivate your card should it be lost or stolen.",
+      "img": "https://portal-na.campusm.exlibrisgroup.com/assets/CollegeofCharleston/CollegeofCharlestonSB/FontAwesome/id-card.png"
+    },
+    "menuOptionConfig": {
+      "img": "",
+      "web2_disabled": false,
+      "metadata_tag": "",
+      "disabled": false,
+      "menuRefCode": "TILE",
+      "desc": "Cougar Card Portal",
+      "iphone_disabled": false,
+      "roles": [],
+      "service": "",
+      "android_disabled": false,
+      "disable_person_hide_tile": false,
+      "person_tile_hidden_by_default": false,
+      "order": "103"
+    },
+    "profiles": {}
+  },
+  "Cougar Connect": {
+    "tag": "",
+    "tileConfig": {
+      "action": "campusm://openURL?url=https%3A%2F%2Fcougarconnect.cofc.edu%2F",
+      "tileWidth": 2,
+      "info": "Find and attend events, browse and join organizations, and showcase your involvement.",
+      "img": "https://portal-na.campusm.exlibrisgroup.com/assets/CollegeofCharleston/CollegeofCharlestonSB/FontAwesome/cougarconnect.png"
+    },
+    "menuOptionConfig": {
+      "img": "",
+      "web2_disabled": false,
+      "metadata_tag": "",
+      "disabled": false,
+      "menuRefCode": "TILE",
+      "desc": "Cougar Connect",
+      "iphone_disabled": false,
+      "roles": [1000005660],
+      "service": "",
+      "android_disabled": false,
+      "disable_person_hide_tile": false,
+      "person_tile_hidden_by_default": false,
+      "order": "155"
+    },
+    "profiles": {
+      "Staff": {
+        "roles": ["Student Systems"]
+      }
+    }
+  },
+  "CougarED": {
+    "tag": "",
+    "tileConfig": {
+      "action": "https://cofc.myabsorb.com/",
+      "info": "Employee development learning management system (LMS)",
+      "img": "https://portal-na.campusm.exlibrisgroup.com/assets/CollegeofCharleston/CollegeofCharlestonSB/FontAwesome/cougared.png"
+    },
+    "menuOptionConfig": {
+      "img": "",
+      "web2_disabled": false,
+      "metadata_tag": "",
+      "disabled": false,
+      "menuRefCode": "TILE",
+      "desc": "CougarED",
+      "iphone_disabled": false,
+      "roles": [],
+      "service": "",
+      "android_disabled": false,
+      "disable_person_hide_tile": false,
+      "person_tile_hidden_by_default": false,
+      "order": "162"
+    },
+    "profiles": {}
+  },
+  "Course Review": {
+    "tag": "",
+    "tileConfig": {
+      "action": "campusm://openURL?url=https%3A%2F%2Fcoursereview.cofc.edu%2FBlue%2F",
+      "info": "Course surveys are an important tool for students to provide anonymous feedback at the end of a course about their instructors, course content, and their overall experience. ",
+      "img": "https://portal-na.campusm.exlibrisgroup.com/assets/CollegeofCharleston/CollegeofCharlestonSB/FontAwesome/coursereview.png"
+    },
+    "menuOptionConfig": {
+      "img": "",
+      "web2_disabled": false,
+      "metadata_tag": "",
+      "disabled": false,
+      "menuRefCode": "TILE",
+      "desc": "Course Review",
+      "iphone_disabled": false,
+      "roles": [1000005660],
+      "service": "",
+      "android_disabled": false,
+      "disable_person_hide_tile": false,
+      "person_tile_hidden_by_default": true,
+      "order": "107"
+    },
+    "profiles": {
+      "Staff": {
+        "roles": ["Student Systems"]
+      }
+    }
+  },
+  "Curriculog": {
+    "tag": "desktop",
+    "tileConfig": {
+      "info": "An online platform through which curriculum proposals must be submitted.",
+      "img": "https://portal-na.campusm.exlibrisgroup.com/assets/CollegeofCharleston/CollegeofCharlestonSB/FontAwesome/curriculog.png",
+      "overrides": [
+        {
+          "conditions": {
+            "platforms": ["ios", "android", "rim"]
+          },
+          "properties": {
+            "hide": true
+          }
+        }
+      ],
+      "noTextOverlay": true,
+      "action": "campusm://openURL?url=https%3A%2F%2Fcofc.curriculog.com%2F",
+      "noLabel": false
+    },
+    "menuOptionConfig": {
+      "img": "",
+      "web2_disabled": false,
+      "metadata_tag": "desktop",
+      "disabled": false,
+      "menuRefCode": "TILE",
+      "desc": "Curriculog",
+      "iphone_disabled": false,
+      "roles": [1000005660],
+      "service": "",
+      "android_disabled": false,
+      "disable_person_hide_tile": false,
+      "person_tile_hidden_by_default": false,
+      "order": "106"
+    },
+    "profiles": {
+      "Staff": {
+        "roles": ["Student Systems"]
+      }
+    }
+  },
+  "Degree Works": {
+    "tag": "",
+    "tileConfig": {
+      "action": "campusm://openURL?url=https%3A%2F%2Fdw.test.cofc.edu%3A8090%2FDashboard%2F",
+      "info": "An online tool designed to help students and their advisors monitor progress toward degree completion.",
+      "img": "https://portal-na.campusm.exlibrisgroup.com/assets/CollegeofCharleston/CollegeofCharlestonSB/FontAwesome/user-graduate.png"
+    },
+    "menuOptionConfig": {
+      "img": "",
+      "web2_disabled": false,
+      "metadata_tag": "",
+      "disabled": false,
+      "menuRefCode": "TILE",
+      "desc": "Degree Works",
+      "iphone_disabled": false,
+      "roles": [1000007384],
+      "service": "",
+      "android_disabled": false,
+      "disable_person_hide_tile": false,
+      "person_tile_hidden_by_default": false,
+      "order": "140"
+    },
+    "profiles": {
+      "Faculty": {
+        "roles": ["Role_Advisor"]
+      }
+    }
+  },
+  "Directory": {
+    "tag": "",
+    "tileConfig": {
+      "action": "campusm://openURL?url=https%3A%2F%2Fdirectory.cofc.edu",
+      "info": "An online directory of students and employees at the College",
+      "img": "https://portal-na.campusm.exlibrisgroup.com/assets/CollegeofCharleston/CollegeofCharlestonSB/FontAwesome/address-book.png"
+    },
+    "menuOptionConfig": {
+      "img": "",
+      "web2_disabled": false,
+      "metadata_tag": "",
+      "disabled": false,
+      "menuRefCode": "TILE",
+      "desc": "Directory",
+      "iphone_disabled": false,
+      "roles": [],
+      "service": "",
+      "android_disabled": false,
+      "disable_person_hide_tile": false,
+      "person_tile_hidden_by_default": true,
+      "order": "47"
+    },
+    "profiles": {}
+  },
+  "Down for Maintenance: Banner Admin Pages (disabled)": {
+    "tag": "",
+    "tileConfig": {},
+    "menuOptionConfig": {
+      "img": "",
+      "web2_disabled": false,
+      "metadata_tag": "",
+      "disabled": true,
+      "menuRefCode": "TILE",
+      "desc": "Down for Maintenance: Banner Admin Pages",
+      "iphone_disabled": false,
+      "roles": [1000005260],
+      "service": "",
+      "android_disabled": false,
+      "disable_person_hide_tile": false,
+      "person_tile_hidden_by_default": false,
+      "order": "193"
+    },
+    "profiles": {
+      "Staff": {
+        "roles": ["Role_BannerINB"]
+      }
+    }
+  },
+  "Down for Maintenance: Banner Document Management (disabled)": {
+    "tag": "",
+    "tileConfig": {},
+    "menuOptionConfig": {
+      "img": "",
+      "web2_disabled": false,
+      "metadata_tag": "",
+      "disabled": true,
+      "menuRefCode": "TILE",
+      "desc": "Down for Maintenance: Banner Document Management",
+      "iphone_disabled": false,
+      "roles": [1000005603, 1000005260],
+      "service": "",
+      "android_disabled": false,
+      "disable_person_hide_tile": false,
+      "person_tile_hidden_by_default": false,
+      "order": "194"
+    },
+    "profiles": {
+      "Staff": {
+        "roles": ["BDMSUsers", "Role_BannerINB"]
+      }
+    }
+  },
+  "Down for Maintenance: Banner Workflow (disabled)": {
+    "tag": "",
+    "tileConfig": {},
+    "menuOptionConfig": {
+      "img": "",
+      "web2_disabled": false,
+      "metadata_tag": "",
+      "disabled": true,
+      "menuRefCode": "TILE",
+      "desc": "Down for Maintenance: Banner Workflow",
+      "iphone_disabled": false,
+      "roles": [1000005604],
+      "service": "",
+      "android_disabled": false,
+      "disable_person_hide_tile": false,
+      "person_tile_hidden_by_default": false,
+      "order": "195"
+    },
+    "profiles": {
+      "Staff": {
+        "roles": ["Role_Workflow"]
+      }
+    }
+  },
+  "Down for Maintenance: Cognos ODS Refresh Status (disabled)": {
+    "tag": "",
+    "tileConfig": {},
+    "menuOptionConfig": {
+      "img": "",
+      "web2_disabled": false,
+      "metadata_tag": "",
+      "disabled": true,
+      "menuRefCode": "TILE",
+      "desc": "Down for Maintenance: Cognos ODS Refresh Status",
+      "iphone_disabled": false,
+      "roles": [],
+      "service": "",
+      "android_disabled": false,
+      "disable_person_hide_tile": false,
+      "person_tile_hidden_by_default": false,
+      "order": "196"
+    },
+    "profiles": {}
+  },
+  "Down for Maintenance: Employee Dashboard (disabled)": {
+    "tag": "",
+    "tileConfig": {},
+    "menuOptionConfig": {
+      "img": "",
+      "web2_disabled": false,
+      "metadata_tag": "",
+      "disabled": true,
+      "menuRefCode": "TILE",
+      "desc": "Down for Maintenance: Employee Dashboard",
+      "iphone_disabled": false,
+      "roles": [],
+      "service": "",
+      "android_disabled": false,
+      "disable_person_hide_tile": false,
+      "person_tile_hidden_by_default": false,
+      "order": "197"
+    },
+    "profiles": {}
+  },
+  "Down for Maintenance: Faculty Dashboard (disabled)": {
+    "tag": "",
+    "tileConfig": {},
+    "menuOptionConfig": {
+      "img": "",
+      "web2_disabled": false,
+      "metadata_tag": "",
+      "disabled": true,
+      "menuRefCode": "TILE",
+      "desc": "Down for Maintenance: Faculty Dashboard",
+      "iphone_disabled": false,
+      "roles": [1000003643, 1000007384],
+      "service": "",
+      "android_disabled": false,
+      "disable_person_hide_tile": false,
+      "person_tile_hidden_by_default": false,
+      "order": "198"
+    },
+    "profiles": {
+      "Faculty": {
+        "roles": ["Role_Faculty", "Role_Advisor"]
+      }
+    }
+  },
+  "Down for Maintenance: Finance Dashboard (disabled)": {
+    "tag": "",
+    "tileConfig": {},
+    "menuOptionConfig": {
+      "img": "",
+      "web2_disabled": false,
+      "metadata_tag": "",
+      "disabled": true,
+      "menuRefCode": "TILE",
+      "desc": "Down for Maintenance: Finance Dashboard",
+      "iphone_disabled": false,
+      "roles": [1000007385],
+      "service": "",
+      "android_disabled": false,
+      "disable_person_hide_tile": false,
+      "person_tile_hidden_by_default": false,
+      "order": "199"
+    },
+    "profiles": {
+      "Staff": {
+        "roles": ["Role_Finance"]
+      }
+    }
+  },
+  "Down for Maintenance: Financial Aid Dashboard (disabled)": {
+    "tag": "",
+    "tileConfig": {},
+    "menuOptionConfig": {
+      "img": "",
+      "web2_disabled": false,
+      "metadata_tag": "",
+      "disabled": true,
+      "menuRefCode": "TILE",
+      "desc": "Down for Maintenance: Financial Aid Dashboard",
+      "iphone_disabled": false,
+      "roles": [1000004198, 1000005605, 1000005621],
+      "service": "",
+      "android_disabled": false,
+      "disable_person_hide_tile": false,
+      "person_tile_hidden_by_default": false,
+      "order": "200"
+    },
+    "profiles": {
+      "Student": {
+        "roles": ["Role_Student"]
+      },
+      "Applicant": {
+        "roles": ["Role_Applicant"]
+      },
+      "Alumni": {
+        "roles": ["Role_Alumni"]
+      }
+    }
+  },
+  "Down for Maintenance: Graduation Application (disabled)": {
+    "tag": "",
+    "tileConfig": {},
+    "menuOptionConfig": {
+      "img": "",
+      "web2_disabled": false,
+      "metadata_tag": "",
+      "disabled": true,
+      "menuRefCode": "TILE",
+      "desc": "Down for Maintenance: Graduation Application",
+      "iphone_disabled": false,
+      "roles": [1000005621],
+      "service": "",
+      "android_disabled": false,
+      "disable_person_hide_tile": false,
+      "person_tile_hidden_by_default": false,
+      "order": "201"
+    },
+    "profiles": {
+      "Student": {
+        "roles": ["Role_Student"]
+      }
+    }
+  },
+  "Down for Maintenance: My Grades (disabled)": {
+    "tag": "",
+    "tileConfig": {},
+    "menuOptionConfig": {
+      "img": "",
+      "web2_disabled": false,
+      "metadata_tag": "",
+      "disabled": true,
+      "menuRefCode": "TILE",
+      "desc": "Down for Maintenance: My Grades",
+      "iphone_disabled": false,
+      "roles": [1000005621],
+      "service": "",
+      "android_disabled": false,
+      "disable_person_hide_tile": false,
+      "person_tile_hidden_by_default": false,
+      "order": "202"
+    },
+    "profiles": {
+      "Student": {
+        "roles": ["Role_Student"]
+      }
+    }
+  },
+  "Down for Maintenance: My Holds (disabled)": {
+    "tag": "",
+    "tileConfig": {},
+    "menuOptionConfig": {
+      "img": "",
+      "web2_disabled": false,
+      "metadata_tag": "",
+      "disabled": true,
+      "menuRefCode": "TILE",
+      "desc": "Down for Maintenance: My Holds",
+      "iphone_disabled": false,
+      "roles": [1000005621],
+      "service": "",
+      "android_disabled": false,
+      "disable_person_hide_tile": false,
+      "person_tile_hidden_by_default": false,
+      "order": "203"
+    },
+    "profiles": {
+      "Student": {
+        "roles": ["Role_Student"]
+      }
+    }
+  },
+  "Down for Maintenance: Personal Information (disabled)": {
+    "tag": "",
+    "tileConfig": {},
+    "menuOptionConfig": {
+      "img": "",
+      "web2_disabled": false,
+      "metadata_tag": "",
+      "disabled": true,
+      "menuRefCode": "TILE",
+      "desc": "Down for Maintenance: Personal Information",
+      "iphone_disabled": false,
+      "roles": [1000004198, 1000005605, 1000003643, 1000005610, 1000005621],
+      "service": "",
+      "android_disabled": false,
+      "disable_person_hide_tile": false,
+      "person_tile_hidden_by_default": false,
+      "order": "204"
+    },
+    "profiles": {
+      "Faculty": {
+        "roles": ["Role_Faculty"]
+      },
+      "Staff": {
+        "roles": ["Role_Employee"]
+      },
+      "Student": {
+        "roles": ["Role_Student"]
+      },
+      "Applicant": {
+        "roles": ["Role_Applicant"]
+      },
+      "Alumni": {
+        "roles": ["Role_Alumni"]
+      }
+    }
+  },
+  "Down for Maintenance: Registration Tools (disabled)": {
+    "tag": "",
+    "tileConfig": {},
+    "menuOptionConfig": {
+      "img": "",
+      "web2_disabled": false,
+      "metadata_tag": "",
+      "disabled": true,
+      "menuRefCode": "TILE",
+      "desc": "Down for Maintenance: Registration Tools",
+      "iphone_disabled": false,
+      "roles": [1000005621],
+      "service": "",
+      "android_disabled": false,
+      "disable_person_hide_tile": false,
+      "person_tile_hidden_by_default": false,
+      "order": "205"
+    },
+    "profiles": {
+      "Student": {
+        "roles": ["Role_Student"]
+      }
+    }
+  },
+  "Down for Maintenance: Student Profile (disabled)": {
+    "tag": "",
+    "tileConfig": {},
+    "menuOptionConfig": {
+      "img": "",
+      "web2_disabled": false,
+      "metadata_tag": "",
+      "disabled": true,
+      "menuRefCode": "TILE",
+      "desc": "Down for Maintenance: Student Profile",
+      "iphone_disabled": false,
+      "roles": [1000004198, 1000005621],
+      "service": "",
+      "android_disabled": false,
+      "disable_person_hide_tile": false,
+      "person_tile_hidden_by_default": false,
+      "order": "206"
+    },
+    "profiles": {
+      "Student": {
+        "roles": ["Role_Student"]
+      },
+      "Alumni": {
+        "roles": ["Role_Alumni"]
+      }
+    }
+  },
+  "Down for Maintenance: eBill (disabled)": {
+    "tag": "",
+    "tileConfig": {},
+    "menuOptionConfig": {
+      "img": "",
+      "web2_disabled": false,
+      "metadata_tag": "",
+      "disabled": true,
+      "menuRefCode": "TILE",
+      "desc": "Down for Maintenance: eBill",
+      "iphone_disabled": false,
+      "roles": [1000004198, 1000005605, 1000003643, 1000005610, 1000005621],
+      "service": "",
+      "android_disabled": false,
+      "disable_person_hide_tile": false,
+      "person_tile_hidden_by_default": false,
+      "order": "207"
+    },
+    "profiles": {
+      "Faculty": {
+        "roles": ["Role_Faculty"]
+      },
+      "Staff": {
+        "roles": ["Role_Employee"]
+      },
+      "Student": {
+        "roles": ["Role_Student"]
+      },
+      "Applicant": {
+        "roles": ["Role_Applicant"]
+      },
+      "Alumni": {
+        "roles": ["Role_Alumni"]
+      }
+    }
+  },
+  "Down for Maintenance: eProcure (disabled)": {
+    "tag": "",
+    "tileConfig": {},
+    "menuOptionConfig": {
+      "img": "",
+      "web2_disabled": false,
+      "metadata_tag": "",
+      "disabled": true,
+      "menuRefCode": "TILE",
+      "desc": "Down for Maintenance: eProcure",
+      "iphone_disabled": false,
+      "roles": [1000003643, 1000005610],
+      "service": "",
+      "android_disabled": false,
+      "disable_person_hide_tile": false,
+      "person_tile_hidden_by_default": false,
+      "order": "208"
+    },
+    "profiles": {
+      "Faculty": {
+        "roles": ["Role_Faculty"]
+      },
+      "Staff": {
+        "roles": ["Role_Employee"]
+      }
+    }
+  },
+  "Employee Dashboard": {
+    "tag": "ssb",
+    "tileConfig": {
+      "action": "campusm://openURL?url=https%3A%2F%2Fssb.test.cofc.edu%2FEmployeeSelfService%2F",
+      "tileWidth": 2,
+      "info": "Self Service Banner dashboard allowing you to view information about your employee profile, including pay and leave information.",
+      "img": "https://portal-na.campusm.exlibrisgroup.com/assets/CollegeofCharleston/CollegeofCharlestonSB/FontAwesome/employee.png"
+    },
+    "menuOptionConfig": {
+      "img": "",
+      "web2_disabled": false,
+      "metadata_tag": "ssb",
+      "disabled": false,
+      "menuRefCode": "TILE",
+      "desc": "Employee Dashboard",
+      "iphone_disabled": false,
+      "roles": [1000005610],
+      "service": "",
+      "android_disabled": false,
+      "disable_person_hide_tile": true,
+      "person_tile_hidden_by_default": false,
+      "order": "144"
+    },
+    "profiles": {
+      "Staff": {
+        "roles": ["Role_Employee"]
+      }
+    }
+  },
+  "F.A.S.T.": {
+    "tag": "",
+    "tileConfig": {
+      "action": "campusm://openURL?url=https%3A%2F%2Fcm.maxient.com%2Freportingform.php%3FCollegeofCharleston%26layout_id%3D10",
+      "img": "https://portal-na.campusm.exlibrisgroup.com/assets/CollegeofCharleston/CollegeofCharlestonSB/FontAwesome/fast.png"
+    },
+    "menuOptionConfig": {
+      "img": "",
+      "web2_disabled": false,
+      "metadata_tag": "",
+      "disabled": false,
+      "menuRefCode": "TILE",
+      "desc": "F.A.S.T.",
+      "iphone_disabled": false,
+      "roles": [1000004198, 1000003643, 1000005610, 1000005621],
+      "service": "",
+      "android_disabled": false,
+      "disable_person_hide_tile": false,
+      "person_tile_hidden_by_default": false,
+      "order": "166"
+    },
+    "profiles": {
+      "Faculty": {
+        "roles": ["Role_Faculty"]
+      },
+      "Staff": {
+        "roles": ["Role_Employee"]
+      },
+      "Student": {
+        "roles": ["Role_Student"]
+      },
+      "Alumni": {
+        "roles": ["Role_Alumni"]
+      }
+    }
+  },
+  "Facilities Work Orders": {
+    "tag": "",
+    "tileConfig": {
+      "action": "campusm://openURL?url=https%3A%2F%2Fmcc.battery.cofc.edu%2Fcr",
+      "tileWidth": 2,
+      "noLabel": false,
+      "img": "https://portal-na.campusm.exlibrisgroup.com/assets/CollegeofCharleston/CollegeofCharlestonSB/FontAwesome/toolbox.png"
+    },
+    "menuOptionConfig": {
+      "img": "",
+      "web2_disabled": false,
+      "metadata_tag": "",
+      "disabled": false,
+      "menuRefCode": "TILE",
+      "desc": "Facilities Work Orders",
+      "iphone_disabled": false,
+      "roles": [1000004198, 1000003643, 1000005610, 1000005621],
+      "service": "",
+      "android_disabled": false,
+      "disable_person_hide_tile": false,
+      "person_tile_hidden_by_default": false,
+      "order": "110"
+    },
+    "profiles": {
+      "Faculty": {
+        "roles": ["Role_Faculty"]
+      },
+      "Staff": {
+        "roles": ["Role_Employee"]
+      },
+      "Student": {
+        "roles": ["Role_Student"]
+      },
+      "Alumni": {
+        "roles": ["Role_Alumni"]
+      }
+    }
+  },
+  "Faculty Dashboard": {
+    "tag": "ssb",
+    "tileConfig": {
+      "action": "campusm://openURL?url=https%3A%2F%2Fssb.test.cofc.edu%2FFacultySelfService%2F",
+      "tileWidth": 2,
+      "img": "https://portal-na.campusm.exlibrisgroup.com/assets/CollegeofCharleston/CollegeofCharlestonSB/FontAwesome/chalkboard-user.png"
+    },
+    "menuOptionConfig": {
+      "img": "",
+      "web2_disabled": false,
+      "metadata_tag": "ssb",
+      "disabled": false,
+      "menuRefCode": "TILE",
+      "desc": "Faculty Dashboard",
+      "iphone_disabled": false,
+      "roles": [1000005664, 1000005723, 1000005660],
+      "service": "",
+      "android_disabled": false,
+      "disable_person_hide_tile": true,
+      "person_tile_hidden_by_default": false,
+      "order": "147"
+    },
+    "profiles": {
+      "Staff": {
+        "roles": ["Financial Aid Team", "PMO_SG", "Student Systems"]
+      }
+    }
+  },
+  "Finance Dashboard": {
+    "tag": "ssb",
+    "tileConfig": {
+      "action": "campusm://openURL?url=https%3A%2F%2Fssb.test.cofc.edu%2FFinanceSelfService%2F",
+      "tileWidth": 2,
+      "img": "https://portal-na.campusm.exlibrisgroup.com/assets/CollegeofCharleston/CollegeofCharlestonSB/FontAwesome/finance-dashboard.png"
+    },
+    "menuOptionConfig": {
+      "img": "",
+      "web2_disabled": false,
+      "metadata_tag": "ssb",
+      "disabled": false,
+      "menuRefCode": "TILE",
+      "desc": "Finance Dashboard",
+      "iphone_disabled": false,
+      "roles": [1000005661, 1000005664, 1000005663, 1000005660],
+      "service": "",
+      "android_disabled": false,
+      "disable_person_hide_tile": true,
+      "person_tile_hidden_by_default": false,
+      "order": "148"
+    },
+    "profiles": {
+      "Staff": {
+        "roles": [
+          "Finance Team",
+          "Financial Aid Team",
+          "Payroll Team",
+          "Student Systems"
+        ]
+      }
+    }
+  },
+  "Financial Aid Dashboard": {
+    "tag": "",
+    "tileConfig": {
+      "action": "https://ssb.test.cofc.edu/StudentSelfService/ssb/financialAid",
+      "tileWidth": 2,
+      "img": "https://portal-na.campusm.exlibrisgroup.com/assets/CollegeofCharleston/CollegeofCharlestonSB/FontAwesome/financial-aid-dashboard.png"
+    },
+    "menuOptionConfig": {
+      "img": "",
+      "web2_disabled": false,
+      "metadata_tag": "",
+      "disabled": false,
+      "menuRefCode": "TILE",
+      "desc": "Financial Aid Dashboard",
+      "iphone_disabled": false,
+      "roles": [1000005605],
+      "service": "",
+      "android_disabled": false,
+      "disable_person_hide_tile": false,
+      "person_tile_hidden_by_default": false,
+      "order": "174"
+    },
+    "profiles": {
+      "Applicant": {
+        "roles": ["Role_Applicant"]
+      }
+    }
+  },
+  "Give": {
+    "tag": "",
+    "tileConfig": {
+      "action": "campusm://openURL?url=https%3A%2F%2Fgiving.cofc.edu%2F",
+      "tileWidth": 1,
+      "imageFit": "contain",
+      "img": "https://portal-na.campusm.exlibrisgroup.com/assets/CollegeofCharleston/CollegeofCharlestonSB/FontAwesome/giving.png"
+    },
+    "menuOptionConfig": {
+      "img": "",
+      "web2_disabled": false,
+      "metadata_tag": "",
+      "disabled": false,
+      "menuRefCode": "TILE",
+      "desc": "Give",
+      "iphone_disabled": false,
+      "roles": [1000003220],
+      "service": "",
+      "android_disabled": false,
+      "disable_person_hide_tile": false,
+      "person_tile_hidden_by_default": false,
+      "order": "83"
+    },
+    "profiles": {
+      "Unauthenticated": {
+        "roles": ["Default"]
+      }
+    }
+  },
+  "Gmail": {
+    "tag": "desktop",
+    "tileConfig": {
+      "action": "campusm://openURL?url=https%3A%2F%2Fgmail.com",
+      "img": "https://portal-na.campusm.exlibrisgroup.com/assets/CollegeofCharleston/CollegeofCharlestonSB/FontAwesome/gmail.png"
+    },
+    "menuOptionConfig": {
+      "img": "",
+      "web2_disabled": false,
+      "metadata_tag": "desktop",
+      "disabled": false,
+      "menuRefCode": "TILE",
+      "desc": "Gmail",
+      "iphone_disabled": false,
+      "roles": [],
+      "service": "",
+      "android_disabled": false,
+      "disable_person_hide_tile": false,
+      "person_tile_hidden_by_default": true,
+      "order": "113"
+    },
+    "profiles": {}
+  },
+  "Graduation Application": {
+    "tag": "",
+    "tileConfig": {
+      "tileWidth": 2,
+      "img": "https://portal-na.campusm.exlibrisgroup.com/assets/CollegeofCharleston/CollegeofCharlestonSB/FontAwesome/graduation-cap.png"
+    },
+    "menuOptionConfig": {
+      "img": "",
+      "web2_disabled": false,
+      "metadata_tag": "",
+      "disabled": false,
+      "menuRefCode": "PG",
+      "desc": "Graduation Application",
+      "iphone_disabled": false,
+      "roles": [],
+      "service": "",
+      "android_disabled": false,
+      "disable_person_hide_tile": false,
+      "person_tile_hidden_by_default": false,
+      "order": "186"
+    },
+    "profiles": {}
+  },
+  "Greeting": {
+    "tag": "",
+    "tileConfig": {
+      "tileWidth": 4,
+      "overrides": [
+        {
+          "conditions": {
+            "platforms": ["ios", "android", "rim"]
+          },
+          "properties": {
+            "tileWidth": 4,
+            "tileHeight": 1
+          }
+        }
+      ],
+      "textColor": "#600",
+      "backgroundColor": "#ffffff",
+      "tileHeight": 2
+    },
+    "menuOptionConfig": {
+      "img": "",
+      "web2_disabled": false,
+      "metadata_tag": "",
+      "disabled": false,
+      "menuRefCode": "SERVICES",
+      "desc": "Greeting",
+      "iphone_disabled": false,
+      "roles": [1000004198, 1000005605, 1000003643, 1000005610, 1000005621],
+      "service": 8572,
+      "android_disabled": false,
+      "disable_person_hide_tile": false,
+      "person_tile_hidden_by_default": false,
+      "order": "188"
+    },
+    "profiles": {
+      "Faculty": {
+        "roles": ["Role_Faculty"]
+      },
+      "Staff": {
+        "roles": ["Role_Employee"]
+      },
+      "Student": {
+        "roles": ["Role_Student"]
+      },
+      "Applicant": {
+        "roles": ["Role_Applicant"]
+      },
+      "Alumni": {
+        "roles": ["Role_Alumni"]
+      }
+    }
+  },
+  "Handshake": {
+    "tag": "employment",
+    "tileConfig": {
+      "action": "campusm://openURL?url=https%3A%2F%2Fcofc.joinhandshake.com%2Flogin",
+      "img": "https://portal-na.campusm.exlibrisgroup.com/assets/CollegeofCharleston/CollegeofCharlestonSB/FontAwesome/handshake.png"
+    },
+    "menuOptionConfig": {
+      "img": "",
+      "web2_disabled": false,
+      "metadata_tag": "employment",
+      "disabled": false,
+      "menuRefCode": "TILE",
+      "desc": "Handshake",
+      "iphone_disabled": false,
+      "roles": [],
+      "service": "",
+      "android_disabled": false,
+      "disable_person_hide_tile": false,
+      "person_tile_hidden_by_default": true,
+      "order": "46"
+    },
+    "profiles": {}
+  },
+  "Library PI": {
+    "tag": "",
+    "tileConfig": {
+      "action": "campusm://productscreen/primo/primo/442",
+      "tileWidth": 4,
+      "backgroundColor": "#cccccc",
+      "tileHeight": 2
+    },
+    "menuOptionConfig": {
+      "img": "",
+      "web2_disabled": false,
+      "metadata_tag": "",
+      "disabled": false,
+      "menuRefCode": "SERVICES",
+      "desc": "Library PI",
+      "iphone_disabled": false,
+      "roles": [],
+      "service": 442,
+      "android_disabled": false,
+      "disable_person_hide_tile": false,
+      "person_tile_hidden_by_default": false,
+      "order": "185"
+    },
+    "profiles": {}
+  },
+  "Life Scholarship Information": {
+    "tag": "",
+    "tileConfig": {
+      "action": "campusm://openURL?url=https%3A%2F%2Fssb.test.cofc.edu%2FBannerExtensibility%2FcustomPage%2Fpage%2FDisplay_Life_Scholarship",
+      "tileWidth": 2,
+      "img": "https://portal-na.campusm.exlibrisgroup.com/assets/CollegeofCharleston/CollegeofCharlestonSB/FontAwesome/lifescholarship.png"
+    },
+    "menuOptionConfig": {
+      "img": "",
+      "web2_disabled": false,
+      "metadata_tag": "",
+      "disabled": false,
+      "menuRefCode": "TILE",
+      "desc": "Life Scholarship Information",
+      "iphone_disabled": false,
+      "roles": [],
+      "service": "",
+      "android_disabled": false,
+      "disable_person_hide_tile": false,
+      "person_tile_hidden_by_default": false,
+      "order": "176"
+    },
+    "profiles": {}
+  },
+  "Linkedin Learning": {
+    "tag": "desktop",
+    "tileConfig": {
+      "action": "campusm://openURL?url=https%3A%2F%2Fwww.linkedin.com%2Flearning%2F",
+      "img": "https://portal-na.campusm.exlibrisgroup.com/assets/CollegeofCharleston/CollegeofCharlestonSB/FontAwesome/linkedin.png"
+    },
+    "menuOptionConfig": {
+      "img": "",
+      "web2_disabled": false,
+      "metadata_tag": "desktop",
+      "disabled": false,
+      "menuRefCode": "TILE",
+      "desc": "Linkedin Learning",
+      "iphone_disabled": false,
+      "roles": [],
+      "service": "",
+      "android_disabled": false,
+      "disable_person_hide_tile": false,
+      "person_tile_hidden_by_default": true,
+      "order": "114"
+    },
+    "profiles": {}
+  },
+  "My Grades": {
+    "tag": "",
+    "tileConfig": {
+      "action": "campusm://openURL?url=https%3A%2F%2Fssb.test.cofc.edu%2FStudentSelfService%2Fssb%2FstudentGrades",
+      "img": "https://portal-na.campusm.exlibrisgroup.com/assets/CollegeofCharleston/CollegeofCharlestonSB/FontAwesome/clipboard-list-check.png"
+    },
+    "menuOptionConfig": {
+      "img": "",
+      "web2_disabled": false,
+      "metadata_tag": "",
+      "disabled": false,
+      "menuRefCode": "SERVICES",
+      "desc": "My Grades",
+      "iphone_disabled": false,
+      "roles": [1000005664, 1000005660],
+      "service": 702,
+      "android_disabled": false,
+      "disable_person_hide_tile": true,
+      "person_tile_hidden_by_default": false,
+      "order": "33"
+    },
+    "profiles": {
+      "Staff": {
+        "roles": ["Financial Aid Team", "Student Systems"]
+      }
+    }
+  },
+  "My Health": {
+    "tag": "",
+    "tileConfig": {
+      "action": "campusm://openURL?url=https%3A%2F%2Fcofc.medicatconnect.com",
+      "noLabel": false,
+      "noTextOverlay": true,
+      "img": "https://portal-na.campusm.exlibrisgroup.com/assets/CollegeofCharleston/CollegeofCharlestonSB/FontAwesome/laptop-medical.png"
+    },
+    "menuOptionConfig": {
+      "img": "",
+      "web2_disabled": false,
+      "metadata_tag": "",
+      "disabled": false,
+      "menuRefCode": "TILE",
+      "desc": "My Health",
+      "iphone_disabled": false,
+      "roles": [],
+      "service": "",
+      "android_disabled": false,
+      "disable_person_hide_tile": false,
+      "person_tile_hidden_by_default": false,
+      "order": "120"
+    },
+    "profiles": {}
+  },
+  "My Holds": {
+    "tag": "",
+    "tileConfig": {
+      "action": "campusm://productscreen/holds/holds/743",
+      "noLabel": false,
+      "noTextOverlay": true,
+      "img": "https://portal-na.campusm.exlibrisgroup.com/assets/CollegeofCharleston/CollegeofCharlestonSB/FontAwesome/exclamation-circle.png"
+    },
+    "menuOptionConfig": {
+      "img": "",
+      "web2_disabled": false,
+      "metadata_tag": "",
+      "disabled": false,
+      "menuRefCode": "SERVICES",
+      "desc": "My Holds",
+      "iphone_disabled": false,
+      "roles": [1000005664, 1000005660],
+      "service": 743,
+      "android_disabled": false,
+      "disable_person_hide_tile": true,
+      "person_tile_hidden_by_default": false,
+      "order": "36"
+    },
+    "profiles": {
+      "Staff": {
+        "roles": ["Financial Aid Team", "Student Systems"]
+      }
+    }
+  },
+  "My Housing & Dining": {
+    "tag": "reslife",
+    "tileConfig": {
+      "action": "campusm://openURL?url=https%3A%2F%2Fcofc.starrezhousing.com%2FStarRezPortalX%2FInitiateLogin%2FStarNet.Core.AuthProviders.Shibboleth%2F",
+      "tileWidth": 2,
+      "img": "https://portal-na.campusm.exlibrisgroup.com/assets/CollegeofCharleston/CollegeofCharlestonSB/FontAwesome/house-user.png"
+    },
+    "menuOptionConfig": {
+      "img": "",
+      "web2_disabled": false,
+      "metadata_tag": "reslife",
+      "disabled": false,
+      "menuRefCode": "TILE",
+      "desc": "My Housing & Dining",
+      "iphone_disabled": false,
+      "roles": [],
+      "service": "",
+      "android_disabled": false,
+      "disable_person_hide_tile": false,
+      "person_tile_hidden_by_default": false,
+      "order": "130"
+    },
+    "profiles": {}
+  },
+  "My Schedule": {
+    "tag": "",
+    "tileConfig": {
+      "tileWidth": 4,
+      "backgroundColor": "#cccccc",
+      "tileHeight": 2
+    },
+    "menuOptionConfig": {
+      "img": "",
+      "web2_disabled": false,
+      "metadata_tag": "",
+      "disabled": false,
+      "menuRefCode": "CAL",
+      "desc": "My Schedule",
+      "iphone_disabled": false,
+      "roles": [],
+      "service": "",
+      "android_disabled": false,
+      "disable_person_hide_tile": false,
+      "person_tile_hidden_by_default": false,
+      "order": "184"
+    },
+    "profiles": {}
+  },
+  "MyApps": {
+    "tag": "",
+    "tileConfig": {
+      "action": "campusm://openURL?url=https%3A%2F%2Fmyapps.microsoft.com%2F",
+      "tileWidth": 1,
+      "imageFit": "contain",
+      "img": "https://portal-na.campusm.exlibrisgroup.com/assets/CollegeofCharleston/CollegeofCharlestonSB/FontAwesome/microsoft.png"
+    },
+    "menuOptionConfig": {
+      "img": "",
+      "web2_disabled": false,
+      "metadata_tag": "",
+      "disabled": false,
+      "menuRefCode": "TILE",
+      "desc": "MyApps",
+      "iphone_disabled": false,
+      "roles": [],
+      "service": "",
+      "android_disabled": false,
+      "disable_person_hide_tile": false,
+      "person_tile_hidden_by_default": false,
+      "order": "39"
+    },
+    "profiles": {}
+  },
+  "MyPortal Feedback": {
+    "tag": "",
+    "tileConfig": {
+      "action": "campusm://openURL?url=https%3A%2F%2Fforms.office.com%2Fr%2FuCuqtjbDDy",
+      "tileWidth": 2,
+      "img": "https://portal-na.campusm.exlibrisgroup.com/assets/CollegeofCharleston/CollegeofCharlestonSB/FontAwesome/square-question.png"
+    },
+    "menuOptionConfig": {
+      "img": "",
+      "web2_disabled": false,
+      "metadata_tag": "",
+      "disabled": false,
+      "menuRefCode": "TILE",
+      "desc": "MyPortal Feedback",
+      "iphone_disabled": false,
+      "roles": [],
+      "service": "",
+      "android_disabled": false,
+      "disable_person_hide_tile": false,
+      "person_tile_hidden_by_default": false,
+      "order": "158"
+    },
+    "profiles": {}
+  },
+  "MyQR ID": {
+    "tag": "",
+    "tileConfig": {
+      "action": "campusm://openURL?url=https%3A%2F%2Fmyqr.cofc.edu",
+      "img": "https://portal-na.campusm.exlibrisgroup.com/assets/CollegeofCharleston/CollegeofCharlestonSB/FontAwesome/qrcode.png"
+    },
+    "menuOptionConfig": {
+      "img": "",
+      "web2_disabled": false,
+      "metadata_tag": "",
+      "disabled": false,
+      "menuRefCode": "TILE",
+      "desc": "MyQR ID",
+      "iphone_disabled": false,
+      "roles": [],
+      "service": "",
+      "android_disabled": false,
+      "disable_person_hide_tile": false,
+      "person_tile_hidden_by_default": false,
+      "order": "74"
+    },
+    "profiles": {}
+  },
+  "News/Events (disabled)": {
+    "tag": "",
+    "tileConfig": {
+      "image": "https://portal-na.campusm.exlibrisgroup.com/assets/CollegeofCharleston/CollegeofCharlestonSB/Template/Tiles/News.png"
+    },
+    "menuOptionConfig": {
+      "img": "https://portal-na.campusm.exlibrisgroup.com/assets/CollegeofCharleston/CollegeofCharlestonSB/Template/Tiles/News.png",
+      "web2_disabled": false,
+      "metadata_tag": "",
+      "disabled": true,
+      "menuRefCode": "NEWS",
+      "desc": "News/Events",
+      "iphone_disabled": false,
+      "roles": [1000005720, 1000005721, 1000003644, 1000003220],
+      "service": "",
+      "android_disabled": false,
+      "disable_person_hide_tile": false,
+      "person_tile_hidden_by_default": false
+    },
+    "profiles": {
+      "Unauthenticated": {
+        "roles": ["Default"]
+      },
+      "Staff": {
+        "roles": [
+          "ERP Modernization Program",
+          "ERP Modernization Steering Team",
+          "myportal_role_betatester"
+        ]
+      }
+    }
+  },
+  "OAKS (Faculty & Staff)": {
+    "tag": "faculty staff desktop mobile",
+    "tileConfig": {
+      "action": "campusm://openURL?url=https%3A%2F%2Flms.cofc.edu",
+      "img": "https://portal-na.campusm.exlibrisgroup.com/assets/CollegeofCharleston/CollegeofCharlestonSB/FontAwesome/oaks-acorn.png"
+    },
+    "menuOptionConfig": {
+      "img": "",
+      "web2_disabled": false,
+      "metadata_tag": "faculty staff desktop mobile",
+      "disabled": false,
+      "menuRefCode": "TILE",
+      "desc": "OAKS (Faculty & Staff)",
+      "iphone_disabled": false,
+      "roles": [],
+      "service": "",
+      "android_disabled": false,
+      "disable_person_hide_tile": false,
+      "person_tile_hidden_by_default": false,
+      "order": "169"
+    },
+    "profiles": {}
+  },
+  "POSM": {
+    "tag": "",
+    "tileConfig": {
+      "action": "campusm://openURL?url=https%3A%2F%2Ftmarlow.cougars.int%2Fmanage_prog_study%2Fdefault.aspx",
+      "img": "https://portal-na.campusm.exlibrisgroup.com/assets/CollegeofCharleston/CollegeofCharlestonSB/FontAwesome/list-check.png"
+    },
+    "menuOptionConfig": {
+      "img": "",
+      "web2_disabled": false,
+      "metadata_tag": "",
+      "disabled": false,
+      "menuRefCode": "TILE",
+      "desc": "POSM",
+      "iphone_disabled": false,
+      "roles": [],
+      "service": "",
+      "android_disabled": false,
+      "disable_person_hide_tile": false,
+      "person_tile_hidden_by_default": false,
+      "order": "139"
+    },
+    "profiles": {}
+  },
+  "Parking": {
+    "tag": "payment",
+    "tileConfig": {
+      "action": "campusm://openURL?url=https%3A%2F%2Fcollegeofcharleston.t2hosted.com%2Fcmn%2Fauth.aspx",
+      "img": "https://portal-na.campusm.exlibrisgroup.com/assets/CollegeofCharleston/CollegeofCharlestonSB/FontAwesome/square-parking.png"
+    },
+    "menuOptionConfig": {
+      "img": "",
+      "web2_disabled": false,
+      "metadata_tag": "payment",
+      "disabled": false,
+      "menuRefCode": "TILE",
+      "desc": "Parking",
+      "iphone_disabled": false,
+      "roles": [],
+      "service": "",
+      "android_disabled": false,
+      "disable_person_hide_tile": false,
+      "person_tile_hidden_by_default": false,
+      "order": "78"
+    },
+    "profiles": {}
+  },
+  "PeopleAdmin": {
+    "tag": "",
+    "tileConfig": {
+      "action": "campusm://openURL?url=https%3A%2F%2Fjobs.cofc.edu%2Fhr%2Fshibboleth",
+      "img": "https://portal-na.campusm.exlibrisgroup.com/assets/CollegeofCharleston/CollegeofCharlestonSB/FontAwesome/people-admin-logo.png"
+    },
+    "menuOptionConfig": {
+      "img": "",
+      "web2_disabled": false,
+      "metadata_tag": "",
+      "disabled": false,
+      "menuRefCode": "TILE",
+      "desc": "PeopleAdmin",
+      "iphone_disabled": false,
+      "roles": [],
+      "service": "",
+      "android_disabled": false,
+      "disable_person_hide_tile": false,
+      "person_tile_hidden_by_default": false,
+      "order": "157"
+    },
+    "profiles": {}
+  },
+  "Personal Information ": {
+    "tag": "ssb",
+    "tileConfig": {
+      "action": "campusm://openURL?url=https%3A%2F%2Fssb.test.cofc.edu%2FBannerGeneralSsb%2F",
+      "tileWidth": 2,
+      "img": "https://portal-na.campusm.exlibrisgroup.com/assets/CollegeofCharleston/CollegeofCharlestonSB/FontAwesome/info-2.png"
+    },
+    "menuOptionConfig": {
+      "img": "",
+      "web2_disabled": false,
+      "metadata_tag": "ssb",
+      "disabled": false,
+      "menuRefCode": "TILE",
+      "desc": "Personal Information ",
+      "iphone_disabled": false,
+      "roles": [],
+      "service": "",
+      "android_disabled": false,
+      "disable_person_hide_tile": false,
+      "person_tile_hidden_by_default": false,
+      "order": "143"
+    },
+    "profiles": {}
+  },
+  "Places to Stay": {
+    "tag": "",
+    "tileConfig": {
+      "action": "campusm://openURL?url=https%3A%2F%2Fcampustravel.com%2Funiversity%2Fcollege-of-charleston%2F",
+      "img": "https://portal-na.campusm.exlibrisgroup.com/assets/CollegeofCharleston/CollegeofCharlestonSB/FontAwesome/hotel.png"
+    },
+    "menuOptionConfig": {
+      "img": "",
+      "web2_disabled": false,
+      "metadata_tag": "",
+      "disabled": false,
+      "menuRefCode": "TILE",
+      "desc": "Places to Stay",
+      "iphone_disabled": false,
+      "roles": [1000003220],
+      "service": "",
+      "android_disabled": false,
+      "disable_person_hide_tile": false,
+      "person_tile_hidden_by_default": false,
+      "order": "81"
+    },
+    "profiles": {
+      "Unauthenticated": {
+        "roles": ["Default"]
+      }
+    }
+  },
+  "Qualtrics": {
+    "tag": "",
+    "tileConfig": {
+      "action": "campusm://openURL?url=https%3A%2F%2Fcofc.qualtrics.com%2F",
+      "img": "https://portal-na.campusm.exlibrisgroup.com/assets/CollegeofCharleston/CollegeofCharlestonSB/FontAwesome/qualtrics-icon.png"
+    },
+    "menuOptionConfig": {
+      "img": "",
+      "web2_disabled": false,
+      "metadata_tag": "",
+      "disabled": false,
+      "menuRefCode": "TILE",
+      "desc": "Qualtrics",
+      "iphone_disabled": false,
+      "roles": [],
+      "service": "",
+      "android_disabled": false,
+      "disable_person_hide_tile": false,
+      "person_tile_hidden_by_default": true,
+      "order": "179"
+    },
+    "profiles": {}
+  },
+  "Registration Tools": {
+    "tag": "ssb",
+    "tileConfig": {
+      "action": "campusm://openURL?url=https%3A%2F%2Fssb.test.cofc.edu%2FStudentRegistrationSsb%2F",
+      "tileWidth": 2,
+      "img": "https://portal-na.campusm.exlibrisgroup.com/assets/CollegeofCharleston/CollegeofCharlestonSB/FontAwesome/registration-icon.png"
+    },
+    "menuOptionConfig": {
+      "img": "",
+      "web2_disabled": false,
+      "metadata_tag": "ssb",
+      "disabled": false,
+      "menuRefCode": "TILE",
+      "desc": "Registration Tools",
+      "iphone_disabled": false,
+      "roles": [1000005664, 1000005660],
+      "service": "",
+      "android_disabled": false,
+      "disable_person_hide_tile": false,
+      "person_tile_hidden_by_default": false,
+      "order": "146"
+    },
+    "profiles": {
+      "Staff": {
+        "roles": ["Financial Aid Team", "Student Systems"]
+      }
+    }
+  },
+  "ResLife (disabled)": {
+    "tag": "",
+    "tileConfig": {
+      "noLabel": false,
+      "backgroundColor": "#e89005",
+      "img": "https://portal-na.campusm.exlibrisgroup.com/assets/CollegeofCharleston/CollegeofCharlestonSB/FontAwesome/house-user.png",
+      "noTextOverlay": true
+    },
+    "menuOptionConfig": {
+      "img": "",
+      "web2_disabled": false,
+      "metadata_tag": "",
+      "disabled": true,
+      "menuRefCode": "PG",
+      "desc": "ResLife",
+      "iphone_disabled": false,
+      "roles": [1000005720, 1000005721, 1000003644, 1000003641],
+      "service": "",
+      "android_disabled": false,
+      "disable_person_hide_tile": false,
+      "person_tile_hidden_by_default": false,
+      "order": "137"
+    },
+    "profiles": {
+      "Staff": {
+        "roles": [
+          "ERP Modernization Program",
+          "ERP Modernization Steering Team",
+          "myportal_role_betatester"
+        ]
+      },
+      "Student": {
+        "roles": ["Role_Matriculated"]
+      }
+    }
+  },
+  "Safety": {
+    "tag": "",
+    "tileConfig": {
+      "action": "campusm://openURL?url=https%3A%2F%2Fpublicsafety.cofc.edu%2Fcontact-us%2Findex.php",
+      "tileWidth": 1,
+      "img": "https://portal-na.campusm.exlibrisgroup.com/assets/CollegeofCharleston/CollegeofCharlestonSB/FontAwesome/user-shield.png"
+    },
+    "menuOptionConfig": {
+      "img": "",
+      "web2_disabled": false,
+      "metadata_tag": "",
+      "disabled": false,
+      "menuRefCode": "TILE",
+      "desc": "Safety",
+      "iphone_disabled": false,
+      "roles": [1000003220],
+      "service": "",
+      "android_disabled": false,
+      "disable_person_hide_tile": false,
+      "person_tile_hidden_by_default": false,
+      "order": "156"
+    },
+    "profiles": {
+      "Unauthenticated": {
+        "roles": ["Default"]
+      }
+    }
+  },
+  "Scholarships": {
+    "tag": "",
+    "tileConfig": {
+      "action": "campusm://openURL?url=https%3A%2F%2Ffinaid.cofc.edu%2Ftypes-of-financial-aid%2Fscholarships%2Findex.php",
+      "img": "https://portal-na.campusm.exlibrisgroup.com/assets/CollegeofCharleston/CollegeofCharlestonSB/FontAwesome/award.png"
+    },
+    "menuOptionConfig": {
+      "img": "",
+      "web2_disabled": false,
+      "metadata_tag": "",
+      "disabled": false,
+      "menuRefCode": "TILE",
+      "desc": "Scholarships",
+      "iphone_disabled": false,
+      "roles": [1000003220],
+      "service": "",
+      "android_disabled": false,
+      "disable_person_hide_tile": false,
+      "person_tile_hidden_by_default": true,
+      "order": "141"
+    },
+    "profiles": {
+      "Unauthenticated": {
+        "roles": ["Default"]
+      }
+    }
+  },
+  "Student OAKS": {
+    "tag": "student",
+    "tileConfig": {
+      "tileWidth": 4,
+      "backgroundColor": "#cccccc",
+      "tileHeight": 2
+    },
+    "menuOptionConfig": {
+      "img": "",
+      "web2_disabled": false,
+      "metadata_tag": "student",
+      "disabled": false,
+      "menuRefCode": "SERVICES",
+      "desc": "Student OAKS",
+      "iphone_disabled": false,
+      "roles": [],
+      "service": 4522,
+      "android_disabled": false,
+      "disable_person_hide_tile": false,
+      "person_tile_hidden_by_default": false,
+      "order": "123"
+    },
+    "profiles": {}
+  },
+  "Student Profile": {
+    "tag": "ssb",
+    "tileConfig": {
+      "action": "campusm://openURL?url=https%3A%2F%2Fssb.test.cofc.edu%2FStudentSelfService%2Fssb%2FstudentProfile",
+      "tileWidth": 2,
+      "img": "https://portal-na.campusm.exlibrisgroup.com/assets/CollegeofCharleston/CollegeofCharlestonSB/FontAwesome/school.png"
+    },
+    "menuOptionConfig": {
+      "img": "",
+      "web2_disabled": false,
+      "metadata_tag": "ssb",
+      "disabled": false,
+      "menuRefCode": "TILE",
+      "desc": "Student Profile",
+      "iphone_disabled": false,
+      "roles": [1000004198, 1000005664, 1000005723, 1000005660],
+      "service": "",
+      "android_disabled": false,
+      "disable_person_hide_tile": false,
+      "person_tile_hidden_by_default": false,
+      "order": "145"
+    },
+    "profiles": {
+      "Staff": {
+        "roles": ["Financial Aid Team", "PMO_SG", "Student Systems"]
+      },
+      "Alumni": {
+        "roles": ["Role_Alumni"]
+      }
+    }
+  },
+  "Student Support": {
+    "tag": "",
+    "tileConfig": {
+      "img": "https://portal-na.campusm.exlibrisgroup.com/assets/CollegeofCharleston/CollegeofCharlestonSB/FontAwesome/student-support.png"
+    },
+    "menuOptionConfig": {
+      "img": "",
+      "web2_disabled": false,
+      "metadata_tag": "",
+      "disabled": false,
+      "menuRefCode": "PG",
+      "desc": "Student Support",
+      "iphone_disabled": false,
+      "roles": [1000005660],
+      "service": "",
+      "android_disabled": false,
+      "disable_person_hide_tile": false,
+      "person_tile_hidden_by_default": false,
+      "order": "167"
+    },
+    "profiles": {
+      "Staff": {
+        "roles": ["Student Systems"]
+      }
+    }
+  },
+  "Student Wellness": {
+    "tag": "",
+    "tileConfig": {
+      "action": "campusm://openURL?url=https%3A%2F%2Fstudentaffairs.cofc.edu%2Fstudent-wellness%2Findex.php",
+      "tileWidth": 2,
+      "img": "https://portal-na.campusm.exlibrisgroup.com/assets/CollegeofCharleston/CollegeofCharlestonSB/FontAwesome/student-wellness.png"
+    },
+    "menuOptionConfig": {
+      "img": "",
+      "web2_disabled": false,
+      "metadata_tag": "",
+      "disabled": false,
+      "menuRefCode": "TILE",
+      "desc": "Student Wellness",
+      "iphone_disabled": false,
+      "roles": [],
+      "service": "",
+      "android_disabled": false,
+      "disable_person_hide_tile": false,
+      "person_tile_hidden_by_default": false,
+      "order": "177"
+    },
+    "profiles": {}
+  },
+  "Time Entry (disabled)": {
+    "tag": "",
+    "tileConfig": {
+      "action": "campusm://openURL?url=https%3A%2F%2Fssb.test.cofc.edu%2FEmployeeSelfService%2Fssb%2FtimeEntry%23%2FteApp%2Fleavereport%2Fdashboard%2F",
+      "tileWidth": 2,
+      "img": "https://portal-na.campusm.exlibrisgroup.com/assets/CollegeofCharleston/CollegeofCharlestonSB/FontAwesome/clock.png"
+    },
+    "menuOptionConfig": {
+      "img": "",
+      "web2_disabled": false,
+      "metadata_tag": "",
+      "disabled": true,
+      "menuRefCode": "TILE",
+      "desc": "Time Entry",
+      "iphone_disabled": false,
+      "roles": [1000005610, 1000005720, 1000005721, 1000003644],
+      "service": "",
+      "android_disabled": false,
+      "disable_person_hide_tile": false,
+      "person_tile_hidden_by_default": false,
+      "order": "163"
+    },
+    "profiles": {
+      "Staff": {
+        "roles": [
+          "Role_Employee",
+          "ERP Modernization Program",
+          "ERP Modernization Steering Team",
+          "myportal_role_betatester"
+        ]
+      }
+    }
+  },
+  "Transcripts": {
+    "tag": "",
+    "tileConfig": {
+      "img": "https://portal-na.campusm.exlibrisgroup.com/assets/CollegeofCharleston/CollegeofCharlestonSB/FontAwesome/file.png"
+    },
+    "menuOptionConfig": {
+      "img": "",
+      "web2_disabled": false,
+      "metadata_tag": "",
+      "disabled": false,
+      "menuRefCode": "PG",
+      "desc": "Transcripts",
+      "iphone_disabled": false,
+      "roles": [],
+      "service": "",
+      "android_disabled": false,
+      "disable_person_hide_tile": false,
+      "person_tile_hidden_by_default": false,
+      "order": "161"
+    },
+    "profiles": {}
+  },
+  "Workstations": {
+    "tag": "",
+    "tileConfig": {
+      "noLabel": false,
+      "noTextOverlay": true,
+      "img": "https://portal-na.campusm.exlibrisgroup.com/assets/CollegeofCharleston/CollegeofCharlestonSB/FontAwesome/desktop.png"
+    },
+    "menuOptionConfig": {
+      "img": "https://portal-na.campusm.exlibrisgroup.com/assets/CollegeofCharleston/CollegeofCharlestonSB/CofCDesignTeam/TileIcons-TransparentBG/labstats.png",
+      "web2_disabled": false,
+      "metadata_tag": "",
+      "disabled": false,
+      "menuRefCode": "AEK1000011927",
+      "desc": "Workstations",
+      "iphone_disabled": false,
+      "roles": [],
+      "service": "",
+      "android_disabled": false,
+      "disable_person_hide_tile": false,
+      "person_tile_hidden_by_default": true
+    },
+    "profiles": {}
+  },
+  "eBill": {
+    "tag": "non-parents",
+    "tileConfig": {
+      "action": "campusm://openURL?url=https%3A%2F%2Fmyapps.microsoft.com%2Fsignin%2F8d7d348c-ae74-4115-828d-5ce296aca542%3FtenantId%3De285d438-dbba-4a4c-941c-593ba422deac",
+      "img": "https://portal-na.campusm.exlibrisgroup.com/assets/CollegeofCharleston/CollegeofCharlestonSB/FontAwesome/credit-card.png"
+    },
+    "menuOptionConfig": {
+      "img": "",
+      "web2_disabled": false,
+      "metadata_tag": "non-parents",
+      "disabled": false,
+      "menuRefCode": "TILE",
+      "desc": "eBill",
+      "iphone_disabled": false,
+      "roles": [1000005605],
+      "service": "",
+      "android_disabled": false,
+      "disable_person_hide_tile": false,
+      "person_tile_hidden_by_default": false,
+      "order": "175"
+    },
+    "profiles": {
+      "Applicant": {
+        "roles": ["Role_Applicant"]
+      }
+    }
+  },
+  "ePrint (VPN Required)": {
+    "tag": "",
+    "tileConfig": {
+      "action": "campusm://openURL?url=https%3A%2F%2Feprint.cofc.edu%2Fcgi-bin%2Feprint.cgi",
+      "tileWidth": 2,
+      "img": "https://portal-na.campusm.exlibrisgroup.com/assets/CollegeofCharleston/CollegeofCharlestonSB/FontAwesome/eprint.png"
+    },
+    "menuOptionConfig": {
+      "img": "",
+      "web2_disabled": false,
+      "metadata_tag": "",
+      "disabled": false,
+      "menuRefCode": "TILE",
+      "desc": "ePrint (VPN Required)",
+      "iphone_disabled": false,
+      "roles": [],
+      "service": "",
+      "android_disabled": false,
+      "disable_person_hide_tile": false,
+      "person_tile_hidden_by_default": false,
+      "order": "178"
+    },
+    "profiles": {}
+  },
+  "eProcure (disabled)": {
+    "tag": "",
+    "tileConfig": {
+      "info": "eSourcing tool for collecting and comparing service provider information in order to buy a service.",
+      "noLabel": false
+    },
+    "menuOptionConfig": {
+      "img": "",
+      "web2_disabled": false,
+      "metadata_tag": "",
+      "disabled": true,
+      "menuRefCode": "TILE",
+      "desc": "eProcure",
+      "iphone_disabled": false,
+      "roles": [1000003643, 1000005610],
+      "service": "",
+      "android_disabled": false,
+      "disable_person_hide_tile": false,
+      "person_tile_hidden_by_default": false,
+      "order": "121"
+    },
+    "profiles": {
+      "Faculty": {
+        "roles": ["Role_Faculty"]
+      },
+      "Staff": {
+        "roles": ["Role_Employee"]
+      }
+    }
+  },
+  "appConfig": {
+    "config": {
+      "gutterSize": "0",
+      "minCols": 3,
+      "LinkAppLogoToHomePage": true,
+      "backgroundImage": "https://portal-na.campusm.exlibrisgroup.com/assets/CollegeofCharleston/CollegeofCharlestonSB/Backgrounds/CofC-Portal-Layout_Grey-Cityscape.png",
+      "headerBackgroundColor": "#ffffff",
+      "backgroundColor": "white",
+      "sidebar": {
+        "enabled": false,
+        "collapse": true,
+        "css": {
+          "paddingSides": 30,
+          "color": "#1a1a1a",
+          "hoverFontWeight": "bolder",
+          "spacing": 20,
+          "hoverColor": "white",
+          "paddingTop": 10,
+          "fontWeight": "normal",
+          "hoverBackgroundColor": "#aa996d",
+          "fontSize": 18,
+          "backgroundColor": "#f6f3e9",
+          "textAlign": "center",
+          "textTransform": "none"
+        },
+        "footer": {
+          "content": "College of Charleston - MyPortal"
+        }
+      },
+      "headerImage": "https://portal-na.campusm.exlibrisgroup.com/assets/CollegeofCharleston/CollegeofCharlestonSB/Header/wordmark-logo-black-on-white-sandbox.png"
+    },
+    "tileStyle": {
+      "minFontSize": 16,
+      "backgroundColor": "#454545",
+      "borderRadius": 0,
+      "maxFontSize": 17,
+      "noLabel": false,
+      "borderSize": 5,
+      "hoverBackgroundColor": "rgba(122, 35, 47, 1)",
+      "noTextOverlay": true,
+      "labelFontWeight": "bold",
+      "textColor": "white",
+      "hoverTextColor": "white"
+    },
+    "iOSConfig": {
+      "ios_color": ""
+    }
+  },
+  "profileConfig": {
+    "Unauthenticated": {
+      "config": {
+        "tileOrder": []
+      },
+      "tileStyle": {},
+      "iOSConfig": {
+        "ios_header_image": "",
+        "ios_color": "",
+        "recents_indicator_image": "",
+        "ipad_ios7_header_landscape": "",
+        "ios_header_text": "",
+        "ipad_ios7_header_portrait": ""
+      }
+    },
+    "Faculty": {
+      "config": {
+        "tileOrder": []
+      },
+      "tileStyle": {},
+      "iOSConfig": {
+        "ios_header_image": "",
+        "ios_color": "",
+        "recents_indicator_image": "",
+        "ipad_ios7_header_landscape": "",
+        "ios_header_text": "",
+        "ipad_ios7_header_portrait": ""
+      }
+    },
+    "Staff": {
+      "config": {
+        "tileOrder": []
+      },
+      "tileStyle": {},
+      "iOSConfig": {
+        "ios_header_image": "",
+        "ios_color": "",
+        "recents_indicator_image": "",
+        "ipad_ios7_header_landscape": "",
+        "ios_header_text": "",
+        "ipad_ios7_header_portrait": ""
+      }
+    },
+    "Student": {
+      "config": {
+        "tileOrder": []
+      },
+      "tileStyle": {},
+      "iOSConfig": {
+        "ios_header_image": "",
+        "ios_color": "",
+        "recents_indicator_image": "",
+        "ipad_ios7_header_landscape": "",
+        "ios_header_text": "",
+        "ipad_ios7_header_portrait": ""
+      }
+    },
+    "Applicant": {
+      "config": {
+        "tileOrder": []
+      },
+      "tileStyle": {},
+      "iOSConfig": {
+        "ios_header_image": "",
+        "ios_color": "",
+        "recents_indicator_image": "",
+        "ipad_ios7_header_landscape": "",
+        "ios_header_text": "",
+        "ipad_ios7_header_portrait": ""
+      }
+    },
+    "Alumni": {
+      "config": {
+        "tileOrder": []
+      },
+      "tileStyle": {},
+      "iOSConfig": {
+        "ios_header_image": "",
+        "ios_color": "",
+        "recents_indicator_image": "",
+        "ipad_ios7_header_landscape": "",
+        "ios_header_text": "",
+        "ipad_ios7_header_portrait": ""
+      }
+    }
+  }
+}

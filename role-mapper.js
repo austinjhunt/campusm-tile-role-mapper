@@ -18,27 +18,48 @@ async function rolemap(){
         var metadata_tag = $("#id_metadata_tag").val();
         try{  $(rolesdiv).find('a.roles-widget')[0].click(); } catch(error){/* do nothing */ }
         await sleep(200); 
-        var authenticated_roles = $($('.role-selector-profile')[0]).find('input[type=checkbox]:checked');
-        var unauthenticated_roles = $($('.role-selector-profile')[1]).find('input[type=checkbox]:checked');
+        var student_roles = $($('.role-selector-profile')[0]).find('input[type=checkbox]:checked');
+        var fac_adv_staff_admin_roles = $($('.role-selector-profile')[1]).find('input[type=checkbox]:checked'); 
+        var alumni_roles = $($('.role-selector-profile')[2]).find('input[type=checkbox]:checked');
+        var retiree_roles = $($('.role-selector-profile')[3]).find('input[type=checkbox]:checked');
+        var guest_roles = $($('.role-selector-profile')[4]).find('input[type=checkbox]:checked');  
         m[name]['Tag'] = metadata_tag;
-        m[name]['Authenticated'] = [];
-        m[name]['Unauthenticated'] = [];
-        for (var j = 0; j < authenticated_roles.length; j ++){
-            var role = authenticated_roles[j];
+        m[name]['Student'] = [];
+        m[name]['Faculty, Advisors, Staff & Administration'] = [];
+        m[name]['Alumni'] = [];
+        m[name]['Retiree'] = [];
+        m[name]['Guest'] = [];
+
+        for (var j = 0; j < student_roles.length; j ++){
+            var role = student_roles[j];
             var roleName = $(role).parent().text(); 
-            m[name]['Authenticated'].push(roleName); 
+            m[name]['Student'].push(roleName); 
         }
-        for (var j = 0; j < unauthenticated_roles.length; j ++){
-            var role = unauthenticated_roles[j];
+        for (var j = 0; j < fac_adv_staff_admin_roles.length; j ++){
+            var role = fac_adv_staff_admin_roles[j];
             var roleName = $(role).parent().text(); 
-            m[name]['Unauthenticated'].push(roleName); 
+            m[name]['Faculty, Advisors, Staff & Administration'].push(roleName); 
         }
-        if (m[name]['Authenticated'].length == 0){
-            delete m[name]['Authenticated'];
-        } 
-        if (m[name]['Unauthenticated'].length == 0){
-            delete m[name]['Unauthenticated'];
+        for (var j = 0; j < alumni_roles.length; j ++){
+            var role = alumni_roles[j];
+            var roleName = $(role).parent().text(); 
+            m[name]['Alumni'].push(roleName); 
         }
+        for (var j = 0; j < retiree_roles.length; j ++){
+            var role = retiree_roles[j];
+            var roleName = $(role).parent().text(); 
+            m[name]['Retiree'].push(roleName); 
+        }
+        for (var j = 0; j < guest_roles.length; j ++){
+            var role = guest_roles[j];
+            var roleName = $(role).parent().text(); 
+            m[name]['Guest'].push(roleName); 
+        }
+        ['Student', 'Faculty, Advisors, Staff & Administration', 'Alumni', 'Retiree', 'Guest'].forEach(el => { 
+            if (m[name][el].length == 0){
+                delete m[name][el];
+            } 
+        });
     }       
 return m;
 } 

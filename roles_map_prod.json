@@ -1,0 +1,896 @@
+{
+    "3rd Millennium": {
+        "Tag": "",
+        "Student": [
+            "Role_Applicant",
+            "Role_Student",
+            "SG_AppUser_Not-Actually-Students-For-MyPortal"
+        ]
+    },
+    "Account Balance": {
+        "Tag": "",
+        "Student": [
+            "Role_Applicant",
+            "Role_Student"
+        ]
+    },
+    "Alumni": {
+        "Tag": "desktop mobile",
+        "Alumni": [
+            "Role_Alumni"
+        ]
+    },
+    "Appointments": {
+        "Tag": "desktop mobile",
+        "Student": [
+            "Role_Applicant",
+            "Role_Student"
+        ],
+        "Faculty, Advisors, Staff & Administration": [
+            "Role_Employee",
+            "Role_Faculty"
+        ],
+        "Alumni": [
+            "Role_Alumni"
+        ]
+    },
+    "Apps Anywhere": {
+        "Tag": "",
+        "Student": [
+            "Role_Student",
+            "SG_AppUser_Not-Actually-Students-For-MyPortal"
+        ],
+        "Faculty, Advisors, Staff & Administration": [
+            "Role_Employee",
+            "Role_Faculty"
+        ],
+        "Alumni": [
+            "Role_Alumni"
+        ],
+        "Retiree": [
+            "Retired/Emeritus Faculty/Staff"
+        ]
+    },
+    "Banner Admin Pages (VPN Required)": {
+        "Tag": "desktop only",
+        "Faculty, Advisors, Staff & Administration": [
+            "Role_BannerINB",
+            "Role_BannerINB"
+        ]
+    },
+    "Banner Document Management": {
+        "Tag": "",
+        "Faculty, Advisors, Staff & Administration": [
+            "BDMSUsers",
+            "Role_BannerINB"
+        ]
+    },
+    "Banner Workflow (VPN Required)": {
+        "Tag": "",
+        "Faculty, Advisors, Staff & Administration": [
+            "Role_Workflow"
+        ]
+    },
+    "Bookstore": {
+        "Tag": "desktop",
+        "Student": [
+            "Role_Applicant",
+            "Role_Student",
+            "SG_AppUser_Not-Actually-Students-For-MyPortal"
+        ],
+        "Faculty, Advisors, Staff & Administration": [
+            "Student Systems"
+        ],
+        "Alumni": [
+            "Role_Alumni"
+        ]
+    },
+    "Campus Events": {
+        "Tag": ""
+    },
+    "Campus Services": {
+        "Tag": "",
+        "Student": [
+            "Role_Applicant",
+            "Role_Student",
+            "SG_AppUser_Not-Actually-Students-For-MyPortal"
+        ],
+        "Faculty, Advisors, Staff & Administration": [
+            "Role_Employee",
+            "Role_Faculty"
+        ],
+        "Alumni": [
+            "Role_Alumni"
+        ],
+        "Retiree": [
+            "Retired/Emeritus Faculty/Staff",
+            "Role_Retiree"
+        ],
+        "Guest": [
+            "Default"
+        ]
+    },
+    "Classroom Access Codes": {
+        "Tag": "",
+        "Faculty, Advisors, Staff & Administration": [
+            "Role_Faculty"
+        ]
+    },
+    "CofC Jobs": {
+        "Tag": "",
+        "Faculty, Advisors, Staff & Administration": [
+            "Role_Employee",
+            "Role_Faculty"
+        ],
+        "Guest": [
+            "Default"
+        ]
+    },
+    "Cognos ODS Refresh Status": {
+        "Tag": "",
+        "Faculty, Advisors, Staff & Administration": [
+            "Role_Employee"
+        ]
+    },
+    "Cougar Card Portal": {
+        "Tag": "desktop mobile",
+        "Student": [
+            "Role_Applicant",
+            "Role_Student",
+            "SG_AppUser_Not-Actually-Students-For-MyPortal"
+        ],
+        "Faculty, Advisors, Staff & Administration": [
+            "Role_Employee",
+            "Role_Faculty"
+        ],
+        "Alumni": [
+            "Role_Alumni"
+        ],
+        "Retiree": [
+            "Retired/Emeritus Faculty/Staff"
+        ]
+    },
+    "Cougar Connect": {
+        "Tag": "desktop mobile",
+        "Student": [
+            "Role_Applicant",
+            "Role_Student",
+            "SG_AppUser_Not-Actually-Students-For-MyPortal"
+        ],
+        "Faculty, Advisors, Staff & Administration": [
+            "Student Systems"
+        ],
+        "Alumni": [
+            "Role_Alumni"
+        ]
+    },
+    "CougarED": {
+        "Tag": "desktop mobile",
+        "Faculty, Advisors, Staff & Administration": [
+            "Role_Employee"
+        ]
+    },
+    "Course Review": {
+        "Tag": "desktop mobile",
+        "Student": [
+            "Role_Student",
+            "SG_AppUser_Not-Actually-Students-For-MyPortal"
+        ],
+        "Faculty, Advisors, Staff & Administration": [
+            "Role_Faculty",
+            "Student Systems"
+        ]
+    },
+    "Curriculog": {
+        "Tag": "desktop",
+        "Faculty, Advisors, Staff & Administration": [
+            "Role_Faculty",
+            "Student Systems"
+        ]
+    },
+    "Degree Works": {
+        "Tag": "",
+        "Student": [
+            "Role_Applicant",
+            "Role_Student",
+            "SG_AppUser_Not-Actually-Students-For-MyPortal"
+        ],
+        "Faculty, Advisors, Staff & Administration": [
+            "Role_Advisor"
+        ]
+    },
+    "Down for Maintenance: Banner Admin Pages (disabled)": {
+        "Tag": "",
+        "Faculty, Advisors, Staff & Administration": [
+            "Role_BannerINB"
+        ]
+    },
+    "Down for Maintenance: Banner Document Management (disabled)": {
+        "Tag": "",
+        "Faculty, Advisors, Staff & Administration": [
+            "BDMSUsers",
+            "Role_BannerINB"
+        ]
+    },
+    "Down for Maintenance: Banner Workflow (disabled)": {
+        "Tag": "",
+        "Faculty, Advisors, Staff & Administration": [
+            "Role_Workflow"
+        ]
+    },
+    "Down for Maintenance: Cognos ODS Refresh Status (disabled)": {
+        "Tag": "",
+        "Faculty, Advisors, Staff & Administration": [
+            "Role_Employee"
+        ]
+    },
+    "Down for Maintenance: Employee Dashboard (disabled)": {
+        "Tag": "",
+        "Faculty, Advisors, Staff & Administration": [
+            "Role_Employee"
+        ]
+    },
+    "Down for Maintenance: Faculty Dashboard (disabled)": {
+        "Tag": "",
+        "Faculty, Advisors, Staff & Administration": [
+            "Role_Advisor",
+            "Role_Faculty"
+        ]
+    },
+    "Down for Maintenance: Finance Dashboard (disabled)": {
+        "Tag": "",
+        "Faculty, Advisors, Staff & Administration": [
+            "Role_Finance"
+        ]
+    },
+    "Down for Maintenance: Financial Aid Dashboard (disabled)": {
+        "Tag": "",
+        "Student": [
+            "Role_Applicant",
+            "Role_Student"
+        ],
+        "Alumni": [
+            "Role_Alumni"
+        ]
+    },
+    "Down for Maintenance: Graduation Application (disabled)": {
+        "Tag": "",
+        "Student": [
+            "Role_Student"
+        ]
+    },
+    "Down for Maintenance: My Grades (disabled)": {
+        "Tag": "",
+        "Student": [
+            "Role_Student"
+        ]
+    },
+    "Down for Maintenance: My Holds (disabled)": {
+        "Tag": "",
+        "Student": [
+            "Role_Student"
+        ]
+    },
+    "Down for Maintenance: Personal Information (disabled)": {
+        "Tag": ""
+    },
+    "Down for Maintenance: Registration Tools (disabled)": {
+        "Tag": "",
+        "Student": [
+            "Role_Student"
+        ]
+    },
+    "Down for Maintenance: Student Profile (disabled)": {
+        "Tag": "",
+        "Student": [
+            "Role_Student"
+        ],
+        "Alumni": [
+            "Role_Alumni"
+        ]
+    },
+    "Down for Maintenance: eBill (disabled)": {
+        "Tag": ""
+    },
+    "Down for Maintenance: eProcure (disabled)": {
+        "Tag": "",
+        "Faculty, Advisors, Staff & Administration": [
+            "Role_Employee",
+            "Role_Faculty"
+        ]
+    },
+    "Employee Dashboard": {
+        "Tag": "desktop mobile ssb needs-validation",
+        "Faculty, Advisors, Staff & Administration": [
+            "Role_Employee",
+            "Role_Faculty"
+        ],
+        "Retiree": [
+            "Retired/Emeritus Faculty/Staff",
+            "Role_Emeritus",
+            "Role_Retiree"
+        ]
+    },
+    "Events": {
+        "Tag": "",
+        "Student": [
+            "Role_Applicant",
+            "Role_Student",
+            "SG_AppUser_Not-Actually-Students-For-MyPortal"
+        ],
+        "Faculty, Advisors, Staff & Administration": [
+            "Role_Employee",
+            "Role_Faculty"
+        ],
+        "Alumni": [
+            "Role_Alumni"
+        ],
+        "Retiree": [
+            "Retired/Emeritus Faculty/Staff"
+        ],
+        "Guest": [
+            "Default"
+        ]
+    },
+    "F.A.S.T.": {
+        "Tag": "desktop mobile",
+        "Student": [
+            "Role_Student",
+            "SG_AppUser_Not-Actually-Students-For-MyPortal"
+        ],
+        "Faculty, Advisors, Staff & Administration": [
+            "Role_Employee",
+            "Role_Faculty"
+        ],
+        "Alumni": [
+            "Role_Alumni"
+        ],
+        "Retiree": [
+            "Retired/Emeritus Faculty/Staff"
+        ]
+    },
+    "Facilities Work Orders": {
+        "Tag": "desktop mobile",
+        "Student": [
+            "Role_Student",
+            "SG_AppUser_Not-Actually-Students-For-MyPortal"
+        ],
+        "Faculty, Advisors, Staff & Administration": [
+            "Role_Employee",
+            "Role_Faculty"
+        ]
+    },
+    "Faculty Dashboard": {
+        "Tag": "ssb desktop mobile",
+        "Faculty, Advisors, Staff & Administration": [
+            "Role_Advisor",
+            "Role_Faculty"
+        ]
+    },
+    "Finance Dashboard": {
+        "Tag": "ssb desktop mobile",
+        "Faculty, Advisors, Staff & Administration": [
+            "Role_Finance"
+        ]
+    },
+    "Financial Aid Dashboard": {
+        "Tag": "ssb",
+        "Student": [
+            "Role_Applicant",
+            "Role_Student",
+            "SG_AppUser_Not-Actually-Students-For-MyPortal"
+        ],
+        "Alumni": [
+            "Role_Alumni"
+        ]
+    },
+    "Give": {
+        "Tag": "desktop mobile",
+        "Alumni": [
+            "Role_Alumni"
+        ],
+        "Guest": [
+            "Default"
+        ]
+    },
+    "Gmail": {
+        "Tag": "desktop mobile",
+        "Student": [
+            "Role_Applicant",
+            "Role_Student"
+        ]
+    },
+    "Graduation Application": {
+        "Tag": "",
+        "Student": [
+            "Role_Student"
+        ]
+    },
+    "Greeting": {
+        "Tag": "",
+        "Student": [
+            "Role_Applicant",
+            "Role_Student",
+            "SG_AppUser_Not-Actually-Students-For-MyPortal"
+        ],
+        "Faculty, Advisors, Staff & Administration": [
+            "Role_Employee",
+            "Role_Faculty"
+        ],
+        "Alumni": [
+            "Role_Alumni"
+        ],
+        "Retiree": [
+            "Retired/Emeritus Faculty/Staff"
+        ]
+    },
+    "IT Support": {
+        "Tag": "desktop mobile",
+        "Student": [
+            "Role_Applicant",
+            "Role_Student",
+            "SG_AppUser_Not-Actually-Students-For-MyPortal"
+        ],
+        "Faculty, Advisors, Staff & Administration": [
+            "Role_Employee",
+            "Role_Faculty"
+        ],
+        "Alumni": [
+            "Role_Alumni"
+        ],
+        "Retiree": [
+            "Retired/Emeritus Faculty/Staff"
+        ]
+    },
+    "LaundryView": {
+        "Tag": "",
+        "Student": [
+            "Role_Student",
+            "SG_AppUser_Not-Actually-Students-For-MyPortal"
+        ]
+    },
+    "Library (disabled)": {
+        "Tag": ""
+    },
+    "Library": {
+        "Tag": "",
+        "Student": [
+            "Role_Student",
+            "SG_AppUser_Not-Actually-Students-For-MyPortal"
+        ],
+        "Faculty, Advisors, Staff & Administration": [
+            "Role_Employee",
+            "Role_Faculty"
+        ],
+        "Alumni": [
+            "Role_Alumni"
+        ]
+    },
+    "Linkedin Learning": {
+        "Tag": "desktop mobile",
+        "Student": [
+            "Role_Applicant",
+            "Role_Student",
+            "SG_AppUser_Not-Actually-Students-For-MyPortal"
+        ],
+        "Faculty, Advisors, Staff & Administration": [
+            "Role_Employee",
+            "Role_Faculty"
+        ],
+        "Alumni": [
+            "Role_Alumni"
+        ],
+        "Retiree": [
+            "Retired/Emeritus Faculty/Staff"
+        ]
+    },
+    "My Apps": {
+        "Tag": "desktop mobile",
+        "Student": [
+            "Role_Applicant",
+            "Role_Student",
+            "SG_AppUser_Not-Actually-Students-For-MyPortal"
+        ],
+        "Faculty, Advisors, Staff & Administration": [
+            "Role_Employee",
+            "Role_Faculty"
+        ],
+        "Alumni": [
+            "Role_Alumni"
+        ],
+        "Retiree": [
+            "Retired/Emeritus Faculty/Staff"
+        ]
+    },
+    "My Grades ": {
+        "Tag": "desktop mobile ssb ",
+        "Student": [
+            "Role_Student",
+            "SG_AppUser_Not-Actually-Students-For-MyPortal"
+        ]
+    },
+    "My Holds": {
+        "Tag": "desktop mobile needs-fix",
+        "Student": [
+            "Role_Applicant",
+            "Role_Student",
+            "SG_AppUser_Not-Actually-Students-For-MyPortal"
+        ]
+    },
+    "My Housing / Dining": {
+        "Tag": "",
+        "Student": [
+            "Role_Applicant",
+            "Role_Student",
+            "SG_AppUser_Not-Actually-Students-For-MyPortal"
+        ]
+    },
+    "My Schedule": {
+        "Tag": "",
+        "Student": [
+            "Role_Student",
+            "SG_AppUser_Not-Actually-Students-For-MyPortal"
+        ]
+    },
+    "MyPortal Feedback": {
+        "Tag": "desktop mobile",
+        "Student": [
+            "Role_Applicant",
+            "Role_Student",
+            "SG_AppUser_Not-Actually-Students-For-MyPortal"
+        ],
+        "Faculty, Advisors, Staff & Administration": [
+            "Role_Employee",
+            "Role_Faculty"
+        ],
+        "Alumni": [
+            "Role_Alumni"
+        ],
+        "Retiree": [
+            "Retired/Emeritus Faculty/Staff"
+        ],
+        "Guest": [
+            "Default"
+        ]
+    },
+    "MyPortal Support": {
+        "Tag": "",
+        "Student": [
+            "Role_Applicant",
+            "Role_Student",
+            "SG_AppUser_Not-Actually-Students-For-MyPortal"
+        ],
+        "Faculty, Advisors, Staff & Administration": [
+            "Role_Employee",
+            "Role_Faculty"
+        ],
+        "Alumni": [
+            "Role_Alumni"
+        ],
+        "Retiree": [
+            "Retired/Emeritus Faculty/Staff"
+        ]
+    },
+    "MyQR CWID": {
+        "Tag": "desktop mobile",
+        "Student": [
+            "Role_Applicant",
+            "Role_Student",
+            "SG_AppUser_Not-Actually-Students-For-MyPortal"
+        ],
+        "Faculty, Advisors, Staff & Administration": [
+            "Role_Employee",
+            "Role_Faculty"
+        ],
+        "Alumni": [
+            "Role_Alumni"
+        ],
+        "Retiree": [
+            "Retired/Emeritus Faculty/Staff"
+        ]
+    },
+    "OAKS": {
+        "Tag": "faculty staff desktop mobile",
+        "Faculty, Advisors, Staff & Administration": [
+            "Role_Employee",
+            "Role_Faculty"
+        ]
+    },
+    "Outlook": {
+        "Tag": "",
+        "Faculty, Advisors, Staff & Administration": [
+            "Role_Employee",
+            "Role_Faculty"
+        ],
+        "Retiree": [
+            "Retired/Emeritus Faculty/Staff"
+        ]
+    },
+    "OutlookPI (disabled)": {
+        "Tag": "",
+        "Faculty, Advisors, Staff & Administration": [
+            "Role_Employee",
+            "Role_Faculty"
+        ],
+        "Alumni": [
+            "Role_Alumni"
+        ],
+        "Retiree": [
+            "Retired/Emeritus Faculty/Staff"
+        ]
+    },
+    "Parking": {
+        "Tag": "desktop mobile",
+        "Student": [
+            "Role_Applicant",
+            "Role_Student",
+            "SG_AppUser_Not-Actually-Students-For-MyPortal"
+        ],
+        "Faculty, Advisors, Staff & Administration": [
+            "Role_Employee",
+            "Role_Faculty"
+        ],
+        "Alumni": [
+            "Role_Alumni"
+        ],
+        "Retiree": [
+            "Retired/Emeritus Faculty/Staff"
+        ]
+    },
+    "PeopleAdmin": {
+        "Tag": "desktop mobile",
+        "Faculty, Advisors, Staff & Administration": [
+            "Role_Employee",
+            "Role_Faculty"
+        ]
+    },
+    "Personal Information": {
+        "Tag": "ssb desktop mobile",
+        "Student": [
+            "Role_Applicant",
+            "Role_Student",
+            "SG_AppUser_Not-Actually-Students-For-MyPortal"
+        ],
+        "Faculty, Advisors, Staff & Administration": [
+            "Role_Employee",
+            "Role_Faculty"
+        ],
+        "Alumni": [
+            "Role_Alumni"
+        ],
+        "Retiree": [
+            "Retired/Emeritus Faculty/Staff"
+        ]
+    },
+    "Places to Stay": {
+        "Tag": "desktop mobile",
+        "Guest": [
+            "Default"
+        ]
+    },
+    "Public Safety": {
+        "Tag": "desktop mobile",
+        "Student": [
+            "Role_Applicant",
+            "Role_Student",
+            "SG_AppUser_Not-Actually-Students-For-MyPortal"
+        ],
+        "Faculty, Advisors, Staff & Administration": [
+            "Role_Employee",
+            "Role_Faculty"
+        ],
+        "Alumni": [
+            "Role_Alumni"
+        ],
+        "Retiree": [
+            "Retired/Emeritus Faculty/Staff"
+        ],
+        "Guest": [
+            "Default"
+        ]
+    },
+    "Qualtrics": {
+        "Tag": "",
+        "Student": [
+            "Role_Applicant",
+            "Role_Student",
+            "SG_AppUser_Not-Actually-Students-For-MyPortal"
+        ],
+        "Faculty, Advisors, Staff & Administration": [
+            "Role_Employee",
+            "Role_Faculty"
+        ],
+        "Alumni": [
+            "Role_Alumni"
+        ],
+        "Retiree": [
+            "Retired/Emeritus Faculty/Staff"
+        ]
+    },
+    "Registration Tools": {
+        "Tag": "ssb desktop mobile",
+        "Student": [
+            "Role_Applicant",
+            "Role_Student",
+            "SG_AppUser_Not-Actually-Students-For-MyPortal"
+        ]
+    },
+    "Scholarships": {
+        "Tag": "desktop mobile",
+        "Student": [
+            "Role_Applicant",
+            "Role_Student",
+            "SG_AppUser_Not-Actually-Students-For-MyPortal"
+        ],
+        "Faculty, Advisors, Staff & Administration": [
+            "Student Systems"
+        ],
+        "Guest": [
+            "Default"
+        ]
+    },
+    "Secure Share": {
+        "Tag": "",
+        "Student": [
+            "Role_Student",
+            "SG_AppUser_Not-Actually-Students-For-MyPortal"
+        ],
+        "Faculty, Advisors, Staff & Administration": [
+            "Role_Employee",
+            "Role_Faculty"
+        ],
+        "Alumni": [
+            "Role_Alumni"
+        ],
+        "Retiree": [
+            "Retired/Emeritus Faculty/Staff"
+        ]
+    },
+    "Student Health Portal": {
+        "Tag": "desktop mobile",
+        "Student": [
+            "Role_Student",
+            "SG_AppUser_Not-Actually-Students-For-MyPortal"
+        ]
+    },
+    "Student Jobs": {
+        "Tag": "",
+        "Student": [
+            "Role_Applicant",
+            "Role_Student"
+        ]
+    },
+    "Student Profile": {
+        "Tag": "ssb desktop mobile ",
+        "Student": [
+            "Role_Applicant",
+            "Role_Student",
+            "SG_AppUser_Not-Actually-Students-For-MyPortal"
+        ],
+        "Alumni": [
+            "Role_Alumni"
+        ]
+    },
+    "Student Success Insights: Advisors": {
+        "Tag": "",
+        "Faculty, Advisors, Staff & Administration": [
+            "Faculty-9Mo-include",
+            "Faculty: All",
+            "Role_Advisor",
+            "SG_AppUser_Advise"
+        ]
+    },
+    "Student Success Insights: Faculty": {
+        "Tag": "",
+        "Faculty, Advisors, Staff & Administration": [
+            "Faculty-9Mo-include",
+            "Faculty: Adjuncts",
+            "Faculty: All"
+        ]
+    },
+    "Student Support Services": {
+        "Tag": "desktop mobile",
+        "Student": [
+            "Role_Applicant",
+            "Role_Student",
+            "SG_AppUser_Not-Actually-Students-For-MyPortal"
+        ],
+        "Faculty, Advisors, Staff & Administration": [
+            "Student Systems"
+        ]
+    },
+    "Student Wellness": {
+        "Tag": "",
+        "Student": [
+            "Role_Applicant",
+            "Role_Student",
+            "SG_AppUser_Not-Actually-Students-For-MyPortal"
+        ]
+    },
+    "The Hub": {
+        "Tag": "",
+        "Student": [
+            "Role_Applicant",
+            "Role_Student",
+            "SG_AppUser_Not-Actually-Students-For-MyPortal"
+        ],
+        "Faculty, Advisors, Staff & Administration": [
+            "Role_Employee",
+            "Role_Faculty"
+        ],
+        "Alumni": [
+            "Role_Alumni"
+        ],
+        "Retiree": [
+            "Retired/Emeritus Faculty/Staff"
+        ]
+    },
+    "Time Entry": {
+        "Tag": ""
+    },
+    "Transcripts": {
+        "Tag": "desktop mobile",
+        "Student": [
+            "Role_Student",
+            "SG_AppUser_Not-Actually-Students-For-MyPortal"
+        ],
+        "Faculty, Advisors, Staff & Administration": [
+            "Student Systems"
+        ],
+        "Alumni": [
+            "Role_Alumni"
+        ]
+    },
+    "Vax Status (disabled)": {
+        "Tag": "desktop mobile needs-link"
+    },
+    "Work Stations": {
+        "Tag": "aek desktop mobile",
+        "Student": [
+            "Role_Student",
+            "SG_AppUser_Not-Actually-Students-For-MyPortal"
+        ],
+        "Faculty, Advisors, Staff & Administration": [
+            "Role_Employee",
+            "Role_Faculty"
+        ],
+        "Alumni": [
+            "Role_Alumni"
+        ],
+        "Retiree": [
+            "Retired/Emeritus Faculty/Staff"
+        ]
+    },
+    "Zoom": {
+        "Tag": "mobile"
+    },
+    "eBill": {
+        "Tag": "non-parents",
+        "Student": [
+            "Role_Applicant",
+            "Role_Student",
+            "SG_AppUser_Not-Actually-Students-For-MyPortal"
+        ],
+        "Faculty, Advisors, Staff & Administration": [
+            "Role_Employee",
+            "Role_Faculty"
+        ],
+        "Alumni": [
+            "Role_Alumni"
+        ]
+    },
+    "ePrint (VPN Required)": {
+        "Tag": "needs-role!",
+        "Faculty, Advisors, Staff & Administration": [
+            "Role_Employee",
+            "Role_Faculty"
+        ]
+    },
+    "eProcure": {
+        "Tag": "",
+        "Faculty, Advisors, Staff & Administration": [
+            "Role_Employee",
+            "Role_Faculty"
+        ]
+    }
+}
