@@ -1,4 +1,4 @@
-# MyPortal Tile Role Mapper
+# CampusM (Ex Libris) Tile Role Mapper
 
 This is a simple project that allows one to easily build a JSON map of the tiles and their associated roles in the [CampusM App Builder](https://appmanager-na.campusm.exlibrisgroup.com/app-builder#) (inside App Manager). It also pulls in the metadata tag for each tile, whose value is used to indicate whether the tile is available on mobile, desktop, or both. If it's both, the tag contains both `mobile` and `desktop`.
 
